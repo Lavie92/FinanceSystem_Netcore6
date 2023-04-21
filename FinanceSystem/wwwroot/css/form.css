@@ -1,0 +1,68 @@
+﻿.form-group {
+    color: #00ffff
+}
+
+.btn {
+    position: relative;
+    top: 5px;
+    color: aqua;
+    border-radius:5px;
+    background-color: #1d283c;
+    border: 2px solid #1d283c;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+    .btn:hover {
+        color: aqua;
+        border-color: aqua;
+        box-shadow: 0 0 5px aqua, 0 0 20px aqua, 0 0 20px aqua;
+    }
+
+.my-link {
+    border-radius: 5px;
+    border: 2px solid #1d283c;
+    background-color: #1d283c;
+    padding: 7px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    position: relative;
+    top: 282px;
+    color: #00ffff;
+    text-decoration: none;
+}
+
+    .my-link:hover {
+        color: aqua;
+        border-color: aqua;
+        box-shadow: 0 0 5px aqua, 0 0 20px aqua, 0 0 20px aqua;
+    }
+.attribute{
+    color:aqua;
+}
+.attribute-input {
+    color: #aee5e5;
+}
+.link {
+    text-decoration: none;
+    position: relative;
+    color: #aee5e5;
+}
+
+
+.btn123 {
+    position: relative;
+    top: 5px;
+    color: aqua;
+    border-radius: 5px;
+    background-color: #1d283c;
+    border: 2px solid #1d283c;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+    .btn123:hover {
+        color: aqua;
+        border-color: aqua;
+        box-shadow: 0 0 3px aqua, 0 0 10px aqua, 0 0 10px aqua;
+    }

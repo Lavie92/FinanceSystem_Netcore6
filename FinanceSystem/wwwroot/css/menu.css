@@ -1,0 +1,24 @@
+.options-menu {
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:94%;
+    transition:  5s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 2s;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+
+.dropdown.open .dropdown-menu {
+    display: block;
+}
