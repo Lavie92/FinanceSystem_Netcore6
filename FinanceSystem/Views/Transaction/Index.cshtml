@@ -1,0 +1,232 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+<link href="~/css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="~css/styles.css">
+<link href="~/css/edit.css" rel="stylesheet" />
+
+<link href="~/Content/css/Addimage.css" rel="stylesheet" />
+
+
+<link href="~/Content/css/style.css" rel="stylesheet" />
+<link href="~/Content/css/menu.css" rel="stylesheet" />
+<div class="app-content-header">
+    <h1 class="app-content-headerText">Transaction</h1>
+    <button class="mode-switch" title="Switch Theme">
+        <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+            <defs></defs>
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+        </svg>
+    </button>
+    <a href="@Url.Action("Create", "Transactions")"> <button class="app-content-headerButton">Add Transaction</button></a>
+
+</div>
+<div class="app-content-actions">
+    <input class="search-bar" placeholder="Search..." type="text">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".search-bar").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $(".products-row").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
+    <div class="app-content-actions-wrapper">
+        <div class="filter-button-wrapper">
+            <button class="action-button filter jsFilter"><span>Filter</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-filter"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" /></svg></button>
+            <div class="filter-menu">
+                <label>Category</label>
+                <select id="categoryFilter">
+                    <option value="0">All Categories</option>
+                    @* @foreach (var item in Model.Categories)
+                    {
+                    <option value="@item.CategoryID">@item.CategoryName</option>
+                    }*@
+                </select>
+                <label>Status</label>
+                <select>
+                    <option>All Status</option>
+                    <option>Active</option>
+                    <option>Disabled</option>
+                </select>
+                <div class="filter-menu-buttons">
+                    <button class="filter-button reset">
+                        Reset
+                    </button>
+                    @*<a href="@Url.Action("FilterCategory", "Transaction")">*@
+                    <button class="filter-button apply" id="filterButton">
+                        Apply
+                    </button>
+                    @*</a>*@
+
+                </div>
+            </div>
+        </div>
+        <button class="action-button list active" title="List View">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line x1="8" y1="6" x2="21" y2="6" /><line x1="8" y1="12" x2="21" y2="12" /><line x1="8" y1="18" x2="21" y2="18" /><line x1="3" y1="6" x2="3.01" y2="6" /><line x1="3" y1="12" x2="3.01" y2="12" /><line x1="3" y1="18" x2="3.01" y2="18" /></svg>
+        </button>
+        <button class="action-button grid" title="Grid View">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /></svg>
+        </button>
+    </div>
+</div>
+@*@{
+    @Html.Action("FilterCategory")
+}*@
+<script src="~/Content/js/menu.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#filterButton').click(function () {
+            var category = $('#categoryFilter').find(":selected").val();
+
+            $('.loadNe').load('@Url.Action("FilterCategory", "Transactions")' + '?cate=' + category);
+
+        });
+    });
+</script>
+
+
+<div class="text-center loadNe">
+    <div class="products-area-wrapper tableView" id="transactionList1">
+        <div class="products-header">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="product-cell image">
+                Giao dịch
+                <button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell category">
+                Thể loại<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell status-cell">
+                Status<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell sales">
+                Ngày<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell stock">
+                Ghi chú<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+
+        </div>
+        @{
+            var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+        }
+        @*@foreach (var item in Model)
+        {
+        <div class="products-row">
+        <div></div>
+        <button class="cell-more-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1" /><circle cx="12" cy="5" r="1" /><circle cx="12" cy="19" r="1" /></svg>
+
+        </button>
+        <ul class="options-menu" style="display: none;">
+        <li onclick="deleteItem(this)" class="btndelete" data-transactionid="@item.TransactionId">Delete</li>
+        <li onclick="editItem(this)" class="btnedit" data-transactionid="@item.TransactionId">Edit</li>
+        <li>Option 3</li>
+        </ul>
+        <div class="product-cell image">
+        <img src="@item.Image" alt="@item.Image">
+
+        <span>$@String.Format(format, "{0:c0}", @item.Amount);</span>
+        </div>
+        <div class="product-cell category">
+        <span class="cell-label">Category:</span>@item.Category.CategoryName
+        </div>
+        <div class="product-cell status-cell">
+        <span class="cell-label">Status:</span>
+        @{
+        string incomeText = item.Income == true ? "Inflow" : "Outflow";
+        }
+        @{
+        if (incomeText == "Outflow")
+        {
+        <span class="status disabled">@incomeText</span>
+        }
+        else
+        {
+        <span class="status active">@incomeText</span>
+        }
+        }
+
+        </div>
+        <div class="product-cell sales">
+        <span class="cell-label">Sales:</span>@item.CreateDate
+        </div>
+        <div class="product-cell stock">
+        <span class="cell-label">Stock:</span>@item.Note
+        </div>
+        </div>
+        }*@
+    </div>
+    @*@{
+    var total = (decimal)TempData["TotalAmount"];
+    if (total >= 0)
+    {
+    <p style="color: #05DBF2 ">Yeahhhh bạn đã lãi @String.Format(format, "{0:c0}", @total) cành ㄟ( ▔, ▔ )ㄏ</p>
+    }
+    else
+    {
+    <p style="color: #05DBF2">Không ổn rồi @TempData["Name"] ơi, bạn đã báo nhà @String.Format(format, "{0:c0}", @total) (* ￣︿￣)</p>
+    }
+    }
+    *@
+
+</div>
+<style>
+    li {
+        color: white;
+    }
+</style>
+<div id="editModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background: linear-gradient(to right, #000336, #4218B8); ">
+                <h4 class="modal-title" style="color: aliceblue;">Edit Transaction</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var moreButtons = document.querySelectorAll(".cell-more-button");
+
+    moreButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            var optionsMenu = this.nextElementSibling;
+            if (optionsMenu.style.display === "none") {
+                optionsMenu.style.display = "block";
+            } else {
+                optionsMenu.style.display = "none";
+            }
+        });
+    });
+</script>
+<script src="~/Content/js/Delete.js"></script>
+<script src="~/Content/js/Edit.js"></script>

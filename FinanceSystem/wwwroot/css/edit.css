@@ -1,0 +1,75 @@
+﻿/* Set the form width and center it on the page */
+.form-horizontal {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+    /* Center the form title */
+    .form-horizontal h4 {
+        text-align: center;
+    }
+
+    /* Add spacing between form inputs */
+    .form-horizontal .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style the form labels */
+    .form-horizontal label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+    /* Style the form inputs */
+    .form-horizontal input,
+    .form-horizontal button {
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+        .form-horizontal input:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+    /* Set the column widths for form inputs */
+    .form-horizontal .col-md-2 {
+        max-width: 20%;
+        float: left;
+    }
+
+    .form-horizontal .col-md-10 {
+        width: 80%;
+        float: left;
+    }
+
+    /* Style the form submit button */
+    .form-horizontal button {
+        float: right;
+        background-color: #007bff;
+        color: #fff;
+        transition: background-color 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+        .form-horizontal button:hover {
+            background-color: #0069d9;
+        }
+
+.body-1 {
+    background: linear-gradient(to bottom, #1a237e, #3949ab, #5c6bc0, #9fa8da, #c5cae9);
+}
+
+.control-label {
+    width: 120px; /* Đặt độ rộng cho label */
+}
+
+.form-control {
+    width: calc(100% - 120px);
+}
