@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinanceSystem.Models
 {
-    public class Wallet
+    public class Wallet 
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]        

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Abbyweb\\New folder\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj": {}
+    "D:\\dacs\\FinanceSystem_Netcore6-login\\FinanceSystem\\FinanceSystem.csproj": {}
   },
   "projects": {
-    "C:\\Abbyweb\\New folder\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj": {
+    "D:\\dacs\\FinanceSystem_Netcore6-login\\FinanceSystem\\FinanceSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Abbyweb\\New folder\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
+        "projectUniqueName": "D:\\dacs\\FinanceSystem_Netcore6-login\\FinanceSystem\\FinanceSystem.csproj",
         "projectName": "FinanceSystem",
-        "projectPath": "C:\\Abbyweb\\New folder\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
+        "projectPath": "D:\\dacs\\FinanceSystem_Netcore6-login\\FinanceSystem\\FinanceSystem.csproj",
         "packagesPath": "C:\\Users\\An\\.nuget\\packages\\",
-        "outputPath": "C:\\Abbyweb\\New folder\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\",
+        "outputPath": "D:\\dacs\\FinanceSystem_Netcore6-login\\FinanceSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\An\\AppData\\Roaming\\NuGet\\NuGet.Config",

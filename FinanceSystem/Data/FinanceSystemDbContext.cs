@@ -7,10 +7,14 @@ namespace FinanceSystem.Data
 {
 	public class FinanceSystemDbContext : IdentityDbContext
 	{
-		public FinanceSystemDbContext(DbContextOptions<FinanceSystemDbContext> options)
+        public FinanceSystemDbContext(DbContextOptions<FinanceSystemDbContext> options)
 			: base(options)
 		{
-		}
+            Categories = Set<Category>();
+            Transactions = Set<Transaction>();
+            Wallets = Set<Wallet>();
+            UserInfors = Set<UserInfor>();
+        }
 		public DbSet<Category> Categories { get; set; }
 		public DbSet<Transaction> Transactions { get; set; }
 		public DbSet<Wallet> Wallets { get; set; }
