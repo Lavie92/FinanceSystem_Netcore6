@@ -15,7 +15,7 @@ namespace FinanceSystem.Models
         public DateTime Birthdate { get; set; }
         public string? Image { get; set; }
         public bool Vozer { get; set; }
-        public virtual FinanceSystemUser User { get; set; }
+        public virtual FinanceSystemUser? User { get; set; }
 
     }
 }

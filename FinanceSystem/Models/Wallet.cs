@@ -10,11 +10,11 @@ namespace FinanceSystem.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]        
         public int Id { get; set; }
-        [StringLength(450)]
-        public string UserId { get; set; }
+        [StringLength(450)]		
+        public string? Name { get; set; }
+		public string? UserId { get; set; }
         public decimal Balance { get; set; }
-        public string Name { get; set; }
-        public virtual ICollection<Transaction> Transactions  { get; set; }
-        public virtual FinanceSystemUser User { get; set; }
+        public virtual ICollection<Transaction>? Transactions  { get; set; }
+        public virtual FinanceSystemUser? User { get; set; }
     }
 }
