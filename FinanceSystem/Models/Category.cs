@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FinanceSystem.Areas.Identity.Data;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinanceSystem.Models
@@ -10,11 +11,12 @@ namespace FinanceSystem.Models
         public int Id { get; set; }
         [Required]
         [StringLength(50, MinimumLength =3)]
-        public string Name { get; set; }
+        public string? Name { get; set; }
         [MaxLength(100)]
         [Required]
         public string? Image { get; set; }
-        public virtual ICollection<Transaction> Transactions { get; set; }
+		public virtual FinanceSystemUser? User { get; set; }
+		public virtual ICollection<Transaction>? Transactions { get; set; }
 
-    }
+	}
 }

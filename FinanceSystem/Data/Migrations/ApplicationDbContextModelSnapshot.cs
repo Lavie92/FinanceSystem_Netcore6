@@ -40,7 +40,12 @@ namespace FinanceSystem.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Categories");
                 });
@@ -56,16 +61,14 @@ namespace FinanceSystem.Data.Migrations
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Image")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Income")
                         .HasColumnType("bit");
@@ -74,7 +77,7 @@ namespace FinanceSystem.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int>("WalletId")
+                    b.Property<int?>("WalletId")
                         .HasColumnType("int");
 
                     b.HasKey("TransactionId");
@@ -129,12 +132,10 @@ namespace FinanceSystem.Data.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasMaxLength(450)
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
@@ -359,19 +360,24 @@ namespace FinanceSystem.Data.Migrations
                     b.HasDiscriminator().HasValue("FinanceSystemUser");
                 });
 
+            modelBuilder.Entity("FinanceSystem.Models.Category", b =>
+                {
+                    b.HasOne("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("FinanceSystem.Models.Transaction", b =>
                 {
                     b.HasOne("FinanceSystem.Models.Category", "Category")
                         .WithMany("Transactions")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CategoryId");
 
                     b.HasOne("FinanceSystem.Models.Wallet", "Wallet")
                         .WithMany("Transactions")
-                        .HasForeignKey("WalletId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("WalletId");
 
                     b.Navigation("Category");
 
@@ -393,9 +399,7 @@ namespace FinanceSystem.Data.Migrations
                 {
                     b.HasOne("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", "User")
                         .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
