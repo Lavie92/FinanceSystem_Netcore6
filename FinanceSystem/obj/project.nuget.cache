@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gcB//KHIOxRP1O+/59idNV+GQt86kW4fU8Bd2KlbWZVmE1ZJe347BcCOHfMuubMN/S945z5uEQrtEg7Mn4jiqg==",
+  "dgSpecHash": "VRRWEGJEgBt8Lz3kYxBfY4qKJ+f6/w0ABpbPskw1mTi20tJK9Jvfmlnl0BDGbJvYr+qBKAGrwi23F//gvsEuMg==",
   "success": true,
-  "projectFilePath": "D:\\Do An Co So\\FinanceSystem_netcore6\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
+  "projectFilePath": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paint\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\paint\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

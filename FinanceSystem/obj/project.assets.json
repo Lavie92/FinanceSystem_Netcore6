@@ -10464,11 +10464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Do An Co So\\FinanceSystem_netcore6\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
+      "projectUniqueName": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
       "projectName": "FinanceSystem",
-      "projectPath": "D:\\Do An Co So\\FinanceSystem_netcore6\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
+      "projectPath": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
       "packagesPath": "C:\\Users\\paint\\.nuget\\packages\\",
-      "outputPath": "D:\\Do An Co So\\FinanceSystem_netcore6\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\",
+      "outputPath": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\paint\\AppData\\Roaming\\NuGet\\NuGet.Config",
