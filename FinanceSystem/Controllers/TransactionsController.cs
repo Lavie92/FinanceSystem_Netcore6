@@ -111,6 +111,7 @@ namespace FinanceSystem.Controllers
             ViewData["CategoryId"] = new SelectList(_db.Categories, "Id", "Name", transaction.CategoryId);
             ViewData["WalletId"] = new SelectList(_db.Wallets, "Id", "Name", transaction.WalletId);
             TempData["Image"] = transaction.Image;
+            transaction.Amount= Math.Abs(transaction.Amount);
             return PartialView("Edit", transaction);
         }
 
@@ -122,7 +123,7 @@ namespace FinanceSystem.Controllers
             {
                 return BadRequest();
             }
-
+            //transaction.WalletId = 10;
             if (ModelState.IsValid)
             {
                 transaction.ImageFile = Request.Form.Files["ImageFile"];
@@ -142,8 +143,6 @@ namespace FinanceSystem.Controllers
                 {
                     transaction.Amount *= -1;
                 }
-                transaction.Amount *= 1;
-
                 try
                 {
                     _db.Update(transaction);
