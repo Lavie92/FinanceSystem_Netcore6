@@ -13,12 +13,28 @@
       "PackagePath": "staticwebassets\\css\\RadioButton.css"
     },
     {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin.css",
+      "PackagePath": "staticwebassets\\css\\StyleLogin.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin1.css",
+      "PackagePath": "staticwebassets\\css\\StyleLogin1.css"
+    },
+    {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\edit.css",
       "PackagePath": "staticwebassets\\css\\edit.css"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\form.css",
       "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style.css",
+      "PackagePath": "staticwebassets\\css\\login\\style.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style1.css",
+      "PackagePath": "staticwebassets\\css\\login\\style1.css"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\menu.css",
@@ -103,6 +119,14 @@
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\highcharts.js",
       "PackagePath": "staticwebassets\\js\\highcharts.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script.js",
+      "PackagePath": "staticwebassets\\js\\login\\script.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script1.js",
+      "PackagePath": "staticwebassets\\js\\login\\script1.js"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\menu.js",
