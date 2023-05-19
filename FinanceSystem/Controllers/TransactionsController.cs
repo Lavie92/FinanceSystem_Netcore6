@@ -25,7 +25,7 @@ namespace FinanceSystem.Controllers
         // GET: Transactions
         public ActionResult Index()
         {
-            var viewModel = new TransactionViewModel
+         var viewModel = new TransactionViewModel
             {
                 Categories = _db.Categories.ToList(),
                 Transactions = _db.Transactions.ToList()
