@@ -8,22 +8,25 @@ using Microsoft.EntityFrameworkCore;
 using FinanceSystem.Data;
 using FinanceSystem.Models;
 using FinanceSystem.Areas.Identity.Data;
+using Microsoft.AspNetCore.Identity;
 
 namespace FinanceSystem.Controllers
 {
     public class WalletsController : Controller
     {
         private readonly FinanceSystemDbContext _context;
-
-        public WalletsController(FinanceSystemDbContext context)
+        UserManager<IdentityUser> _userManager;
+        public WalletsController(FinanceSystemDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // GET: Wallets
+                // GET: Wallets
         public async Task<IActionResult> Index()
         {
-            var financeSystemDbContext = _context.Wallets.Include(w => w.User);
+            var userId = GetIdUser();
+            var financeSystemDbContext = _context.Wallets.Where(x => x.UserId == userId);
             return View(await financeSystemDbContext.ToListAsync());
         }
 
@@ -34,10 +37,10 @@ namespace FinanceSystem.Controllers
             {
                 return NotFound();
             }
-
+            var userId = GetIdUser();
             var wallet = await _context.Wallets
                 .Include(w => w.User)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id && m.UserId == userId);
             if (wallet == null)
             {
                 return NotFound();
@@ -59,6 +62,8 @@ namespace FinanceSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,UserId,Balance,Name")] Wallet wallet)
         {
+            var userId = GetIdUser();
+            wallet.UserId = userId;
             if (ModelState.IsValid)
             {
                 _context.Add(wallet);
@@ -75,13 +80,12 @@ namespace FinanceSystem.Controllers
             {
                 return NotFound();
             }
-
+            var userId = GetIdUser();
             var wallet = await _context.Wallets.FindAsync(id);
             if (wallet == null)
             {
                 return NotFound();
             }
-            ViewData["Name"] = new SelectList(_context.Set<FinanceSystemUser>(), "Id", "Id", wallet.UserId);
             return View(wallet);
         }
 
@@ -92,11 +96,12 @@ namespace FinanceSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,Balance,Name")] Wallet wallet)
         {
+            var userId = GetIdUser();
             if (id != wallet.Id)
             {
                 return NotFound();
             }
-
+            wallet.UserId = userId;
             if (ModelState.IsValid)
             {
                 try
@@ -129,6 +134,7 @@ namespace FinanceSystem.Controllers
                 return NotFound();
             }
 
+            var userId = GetIdUser();
             var wallet = await _context.Wallets
                 .Include(w => w.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
@@ -162,6 +168,11 @@ namespace FinanceSystem.Controllers
         private bool WalletExists(int id)
         {
           return (_context.Wallets?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+        public string GetIdUser() {
+            System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+            var userId = _userManager.GetUserId(currentUser);
+            return userId;
         }
     }
 }

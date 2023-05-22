@@ -1,4 +1,7 @@
 ﻿@page
+@{
+    Layout = null;
+}
 @model FinanceSystem.Areas.Identity.Pages.Account.LoginRegisterModel
 @{
     <!DOCTYPE html>
@@ -40,15 +43,14 @@
                         <span class="icon">
                             <ion-icon name="mail-outline"></ion-icon>
                         </span>
-                        <input asp-for="Input.Email" class="form-control" name="Email" autocomplete="username" aria-required="true" />
-                        @*<input type="email" name="Email" required>*@
+                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
                         <label>Email</label>
                     </div>
                     <div class="input-box">
                         <span class="icon">
                             <ion-icon name="lock-closed-outline"></ion-icon>
                         </span>
-                        <input asp-for="Input.Password" class="form-control" name="Password" autocomplete="current-password" aria-required="true" />
+                        <input asp-for="Input.Password" class="form-control"  autocomplete="current-password" aria-required="true" />
                     <label>Password</label>
                     </div>
                     <div class="remeber-forgot">

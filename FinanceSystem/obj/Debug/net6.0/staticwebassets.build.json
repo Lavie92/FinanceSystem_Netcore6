@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/stavsw22JswfTxk2+Nzwht70h8hIsK+HKVAN+j3fX8=",
+  "Hash": "Y3kqw1zRkxgsfxrPJ17TfK2XiY9GZz4Iu+KyyxaEeio=",
   "Source": "FinanceSystem",
   "BasePath": "_content/FinanceSystem",
   "Mode": "Default",
@@ -1122,6 +1122,23 @@
       "OriginalItemSpec": "wwwroot\\css\\form.css"
     },
     {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\imageProfile.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/imageProfile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\imageProfile.css"
+    },
+    {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
@@ -1292,6 +1309,23 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\userin4.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/userin4.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\userin4.css"
+    },
+    {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\favicon.ico",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
@@ -1324,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\285097558_124306203611591_1215944015738595403_n.jpg"
+    },
+    {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/318573594_428088539538485_2571904678739694387_n_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg"
     },
     {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\an uong.jpg",
@@ -1377,6 +1428,40 @@
       "OriginalItemSpec": "wwwroot\\images\\cover.png"
     },
     {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\defaultAvatar.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/defaultAvatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\defaultAvatar.jpg"
+    },
+    {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\delete (1).png",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/delete (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\delete (1).png"
+    },
+    {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\di lai.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
@@ -1428,6 +1513,23 @@
       "OriginalItemSpec": "wwwroot\\images\\download (1).jpg"
     },
     {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\download.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\download.jpg"
+    },
+    {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\du lich.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
@@ -1477,6 +1579,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\mua sam.jpg"
+    },
+    {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/pen-tsai-wYlhl0o1YjI-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg"
+    },
+    {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\photo_6158851535187063950_y.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/photo_6158851535187063950_y.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\photo_6158851535187063950_y.jpg"
     },
     {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Addimage.js",
@@ -1562,6 +1698,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\highcharts.js"
+    },
+    {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\imageProfile.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/imageProfile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\imageProfile.js"
     },
     {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script.js",
@@ -1698,6 +1851,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\sortable.js"
+    },
+    {
+      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\userin4.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/userin4.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\userin4.js"
     },
     {
       "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

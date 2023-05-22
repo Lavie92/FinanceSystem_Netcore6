@@ -23,17 +23,17 @@ namespace FinanceSystem.Areas.Identity.Pages.Account
     public class LoginRegisterModel : PageModel
     {
         private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly ILogger<LoginModel> _loggerLogin;
+        private readonly ILogger<LoginRegisterModel> _loggerLogin;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IUserStore<IdentityUser> _userStore;
         private readonly IUserEmailStore<IdentityUser> _emailStore;
-        private readonly ILogger<RegisterModel> _loggerRegister;
+        private readonly ILogger<LoginRegisterModel> _loggerRegister;
         private readonly IEmailSender _emailSender;
 
-        public LoginRegisterModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> loggerLogin, 
+        public LoginRegisterModel(SignInManager<IdentityUser> signInManager, ILogger<LoginRegisterModel> loggerLogin, 
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,            
-            ILogger<RegisterModel> loggerRegister,
+            ILogger<LoginRegisterModel> loggerRegister,
             IEmailSender emailSender)
         {
             _signInManager = signInManager;

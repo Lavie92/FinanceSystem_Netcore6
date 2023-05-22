@@ -1,5 +1,8 @@
-﻿@*@using Microsoft.AspNet.Identity;
-*@@using FinanceSystem.Models
+﻿@using FinanceSystem.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -301,14 +304,16 @@
 
                     }
                 }*@
+
                 <div class="dropdown">
                     <button class="account-info-more" style="position: relative; left: 63px;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1" /><circle cx="19" cy="12" r="1" /><circle cx="5" cy="12" r="1" /></svg>
                     </button>
                     <ul class="dropdown-menu" style="position: relative; top: -143px; margin-bottom: -119px; background-color: rgba(255, 255, 255, 0.001); opacity: 0.9; height: 125px; ">
-@*                        @if (Request.IsAuthenticated)
-                        {
-                            string userId = User.Identity.GetUserId();
+                          System.Security.Claims.ClaimsPrincipal userId = this.User;
+                       }
+                            
+@*
                             using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "box1" }))
                             {
                                 @Html.AntiForgeryToken()
@@ -322,11 +327,23 @@
                                 <a href="@Html.ActionLink("AccountSetting", "AccountSetting", "UserInformations", new { id = userId }, htmlAttributes: null)"><button type="submit" class="btn123" style="--i:4;">Account Setting</button></a>
                             }
                             @Html.ActionLink("AccountSetting", "AccountSetting", "UserInformations", new { id = userId, @class = "btn123" }, htmlAttributes: null)
-                        }*@
-
+                    *@
                     </ul>
                 </div>
+                
+                @{
+                    var user = await UserManager.GetUserAsync(User);
+                    var isAuthenticated = SignInManager.IsSignedIn(User);
+                    var id = UserManager.GetUserId(User);
+                }
 
+                @if (isAuthenticated)
+                {
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                        <button type="submit">Logout</button>
+                    </form>
+                    <a asp-action="Edit" asp-controller="UserInfors" asp-route-id="@id">Edit</a>
+                }        
                 <script>
                     var dropdownButton = document.querySelector('.account-info-more');
                     var dropdown = document.querySelector('.dropdown');

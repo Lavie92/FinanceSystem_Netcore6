@@ -15,6 +15,7 @@ namespace FinanceSystem.Models
         [MaxLength(100)]
         [Required]
         public string? Image { get; set; }
+        public string? UserId { get; set; }
 		public virtual FinanceSystemUser? User { get; set; }
 		public virtual ICollection<Transaction>? Transactions { get; set; }
 

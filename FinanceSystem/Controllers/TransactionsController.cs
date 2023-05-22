@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FinanceSystem.Data;
 using FinanceSystem.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using FinanceSystem.Areas.Identity.Data;
 
 namespace FinanceSystem.Controllers
 {
@@ -14,21 +17,24 @@ namespace FinanceSystem.Controllers
     {
         private readonly FinanceSystemDbContext _db;
         private readonly IWebHostEnvironment _env;
-
-
-        public TransactionsController(FinanceSystemDbContext context, IWebHostEnvironment env)
+        UserManager<IdentityUser> _userManager;
+        public TransactionsController(FinanceSystemDbContext context, IWebHostEnvironment env, UserManager<IdentityUser> userManager)
         {
             _db = context;
             _env = env;
+            _userManager = userManager;
         }
+
 
         // GET: Transactions
         public ActionResult Index()
         {
+            System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+            var userId = _userManager.GetUserId(currentUser);
             var viewModel = new TransactionViewModel
             {
-                Categories = _db.Categories.ToList(),
-                Transactions = _db.Transactions.ToList()
+                Categories = _db.Categories.Where(x => x.UserId == userId).ToList(),
+                Transactions = _db.Transactions.Where(x => x.Wallet.UserId == userId).ToList()
             };
             return View(viewModel);
         }
@@ -54,14 +60,18 @@ namespace FinanceSystem.Controllers
         }
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_db.Categories, "Id", "Name");
-            ViewData["WalletId"] = new SelectList(_db.Wallets, "Id", "Name");
+            System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+            var userId = _userManager.GetUserId(currentUser);
+            ViewData["CategoryId"] = new SelectList(_db.Categories.Where(x => x.UserId == userId), "Id", "Name");
+            ViewData["WalletId"] = new SelectList(_db.Wallets.Where(x => x.UserId == userId), "Id", "Name");
             return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("TransactionId,WalletId,CategoryId,Amount,CreateDate,Image,Income,Note")] Transaction transaction)
         {
+            System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+            var userId = _userManager.GetUserId(currentUser);
             transaction.ImageFile = Request.Form.Files["ImageFile"];
             if (transaction.ImageFile != null && transaction.ImageFile.Length > 0)
             {
@@ -101,7 +111,8 @@ namespace FinanceSystem.Controllers
             {
                 return BadRequest();
             }
-
+            System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+            var userId = _userManager.GetUserId(currentUser);
             var transaction = await _db.Transactions.FindAsync(id);
             if (transaction == null)
             {

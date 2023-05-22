@@ -252,6 +252,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXF9GaWx0ZXJDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/Wallets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FsbGV0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
