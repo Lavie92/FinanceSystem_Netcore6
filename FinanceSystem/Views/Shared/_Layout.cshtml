@@ -1,8 +1,5 @@
-﻿@using FinanceSystem.Models
-@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
-
+﻿@*@using Microsoft.AspNet.Identity;
+*@@using FinanceSystem.Models
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -256,20 +253,42 @@
                 </li>
                 <li class="sidebar-list-item">
                     <a href="@Url.Action("Index", "Wallets")">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart"><path d="M21.21 15.89A10 10 0 1 1 8 2.83" /><path d="M22 12A10 10 0 0 0 12 2v10z" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-wallet">
+                          <path d="M19 8h-2V6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2zM9 6h6v2H9V6zm8 14H7V10h10v10z" />
+                          <rect x="9" y="4" width="6" height="4" />
+                        </svg>
                         <span>Wallet Manager</span>
                     </a>
                 </li>
                 <li class="sidebar-list-item">
                     <a href="@Url.Action("Report", "Report")">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12" /><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" /></svg>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2">
+                          <line x1="18" y1="20" x2="18" y2="10" />
+                          <line x1="12" y1="20" x2="12" y2="4" />
+                          <line x1="6" y1="20" x2="6" y2="14" />
+                        </svg>
                         <span>Report</span>
                     </a>
                 </li>
                 <li class="sidebar-list-item">
                     <a href="@Url.Action("ReportCategory", "Report")">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" /><path d="M13.73 21a2 2 0 0 1-3.46 0" /></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart">
+                          <path d="M12 2.69L19.39 10.08L12 17.47V2.69Z" />
+                          <path d="M12 2.69L4.61 10.08L12 17.47V2.69Z" />
+                          <circle cx="12" cy="12" r="8" />
+                        </svg> 
                         <span>Report by categories</span>
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="@Url.Action("Index", "Categories")">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-category">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="8" y1="6" x2="16" y2="6" />
+                            <line x1="8" y1="12" x2="16" y2="12" />
+                            <line x1="8" y1="18" x2="16" y2="18" />
+                        </svg>
+                        <span>Category</span>
                     </a>
                 </li>
             </ul>
@@ -304,16 +323,14 @@
 
                     }
                 }*@
-
                 <div class="dropdown">
                     <button class="account-info-more" style="position: relative; left: 63px;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1" /><circle cx="19" cy="12" r="1" /><circle cx="5" cy="12" r="1" /></svg>
                     </button>
                     <ul class="dropdown-menu" style="position: relative; top: -143px; margin-bottom: -119px; background-color: rgba(255, 255, 255, 0.001); opacity: 0.9; height: 125px; ">
-                          System.Security.Claims.ClaimsPrincipal userId = this.User;
-                       }
-                            
-@*
+@*                        @if (Request.IsAuthenticated)
+                        {
+                            string userId = User.Identity.GetUserId();
                             using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "box1" }))
                             {
                                 @Html.AntiForgeryToken()
@@ -327,23 +344,11 @@
                                 <a href="@Html.ActionLink("AccountSetting", "AccountSetting", "UserInformations", new { id = userId }, htmlAttributes: null)"><button type="submit" class="btn123" style="--i:4;">Account Setting</button></a>
                             }
                             @Html.ActionLink("AccountSetting", "AccountSetting", "UserInformations", new { id = userId, @class = "btn123" }, htmlAttributes: null)
-                    *@
+                        }*@
+
                     </ul>
                 </div>
-                
-                @{
-                    var user = await UserManager.GetUserAsync(User);
-                    var isAuthenticated = SignInManager.IsSignedIn(User);
-                    var id = UserManager.GetUserId(User);
-                }
 
-                @if (isAuthenticated)
-                {
-                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
-                        <button type="submit">Logout</button>
-                    </form>
-                    <a asp-action="Edit" asp-controller="UserInfors" asp-route-id="@id">Edit</a>
-                }        
                 <script>
                     var dropdownButton = document.querySelector('.account-info-more');
                     var dropdown = document.querySelector('.dropdown');
