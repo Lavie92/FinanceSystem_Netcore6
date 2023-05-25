@@ -1,7 +1,8 @@
-﻿@using FinanceSystem.Models
+﻿@using FinanceSystem.Areas.Identity.Data;
+@using FinanceSystem.Models
 @using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<FinanceSystemUser> SignInManager
+@inject UserManager<FinanceSystemUser> UserManager
 
 <!DOCTYPE html>
 <html lang="en">

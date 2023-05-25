@@ -1825,3 +1825,9 @@ D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\obj\Debug\net6.0\refin
 D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\obj\Debug\net6.0\FinanceSystem.pdb
 D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\obj\Debug\net6.0\FinanceSystem.genruntimeconfig.cache
 D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\obj\Debug\net6.0\ref\FinanceSystem.dll
+D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\bin\Debug\net6.0\MailKit.dll
+D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\bin\Debug\net6.0\MimeKit.dll
+D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll

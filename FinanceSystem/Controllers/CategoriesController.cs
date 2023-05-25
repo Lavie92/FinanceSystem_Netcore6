@@ -8,14 +8,15 @@ using Microsoft.EntityFrameworkCore;
 using FinanceSystem.Data;
 using FinanceSystem.Models;
 using Microsoft.AspNetCore.Identity;
+using FinanceSystem.Areas.Identity.Data;
 
 namespace FinanceSystem.Controllers
 {
     public class CategoriesController : Controller
     {
         private readonly FinanceSystemDbContext _context;
-        UserManager<IdentityUser> _userManager;
-        public CategoriesController(FinanceSystemDbContext context, UserManager<IdentityUser> userManager)
+        UserManager<FinanceSystemUser> _userManager;
+        public CategoriesController(FinanceSystemDbContext context, UserManager<FinanceSystemUser> userManager)
         {
             _context = context;
             _userManager = userManager;

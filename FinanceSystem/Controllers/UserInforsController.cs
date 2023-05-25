@@ -15,9 +15,9 @@ namespace FinanceSystem.Controllers
     public class UserInforsController : Controller
     {
         private readonly FinanceSystemDbContext _context;
-        UserManager<IdentityUser> _userManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
-        public UserInforsController(FinanceSystemDbContext context, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        UserManager<FinanceSystemUser> _userManager;
+        private readonly SignInManager<FinanceSystemUser> _signInManager;
+        public UserInforsController(FinanceSystemDbContext context, UserManager<FinanceSystemUser> userManager, SignInManager<FinanceSystemUser> signInManager)
         {
             _context = context;
             _userManager = userManager;
@@ -48,7 +48,7 @@ namespace FinanceSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Gender,Birthdate,Image,Vozer")] UserInfor userInfor)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Gender,Birthdate,Image")] UserInfor userInfor)
         {
             var userId = GetIdUser();
             userInfor.Id = userId;
@@ -89,7 +89,7 @@ namespace FinanceSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,FirstName,LastName,Gender,Birthdate,Image,Vozer")] UserInfor userInfor)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,FirstName,LastName,Gender,Birthdate,Image")] UserInfor userInfor)
 
         {
             

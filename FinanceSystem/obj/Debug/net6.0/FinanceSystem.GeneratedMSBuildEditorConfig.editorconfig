@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Do An Co So\Do An\FinanceSystem_Netcore6\FinanceSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Areas/Admin/Views/UserInfors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlckluZm9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Areas/Admin/Views/UserInfors/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlckluZm9yc1xfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,10 +58,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Areas/Identity/Pages/Account/LoginRegister.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpblJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
@@ -250,18 +258,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/Transactions/_FilterCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXF9GaWx0ZXJDYXRlZ29yeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Do An Co So/Do An/FinanceSystem_Netcore6/FinanceSystem/Views/UserInfors/Edit.cshtml]

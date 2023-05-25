@@ -15,8 +15,8 @@ namespace FinanceSystem.Controllers
     public class WalletsController : Controller
     {
         private readonly FinanceSystemDbContext _context;
-        UserManager<IdentityUser> _userManager;
-        public WalletsController(FinanceSystemDbContext context, UserManager<IdentityUser> userManager)
+        UserManager<FinanceSystemUser> _userManager;
+        public WalletsController(FinanceSystemDbContext context, UserManager<FinanceSystemUser> userManager)
         {
             _context = context;
             _userManager = userManager;

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FinanceSystem.Models
 {
-    public class UserInfor
+    public class UserInfor 
     {
         [StringLength(450)]
         [Key] 
@@ -14,7 +14,6 @@ namespace FinanceSystem.Models
         public bool? Gender { get; set; }
         public DateTime? Birthdate { get; set; }
         public string? Image { get; set; }
-        public bool Vozer { get; set; }
         public IFormFile? ImageFile;
         public virtual FinanceSystemUser? User { get; set; }
 

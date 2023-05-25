@@ -110,9 +110,6 @@ namespace FinanceSystem.Data.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("Vozer")
-                        .HasColumnType("bit");
-
                     b.HasKey("Id");
 
                     b.ToTable("UserInfors");

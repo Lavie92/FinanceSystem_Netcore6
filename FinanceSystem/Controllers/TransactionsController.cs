@@ -13,12 +13,13 @@ using FinanceSystem.Areas.Identity.Data;
 
 namespace FinanceSystem.Controllers
 {
+    [Authorize]
     public class TransactionsController : Controller
     {
         private readonly FinanceSystemDbContext _db;
         private readonly IWebHostEnvironment _env;
-        UserManager<IdentityUser> _userManager;
-        public TransactionsController(FinanceSystemDbContext context, IWebHostEnvironment env, UserManager<IdentityUser> userManager)
+        UserManager<FinanceSystemUser> _userManager;
+        public TransactionsController(FinanceSystemDbContext context, IWebHostEnvironment env, UserManager<FinanceSystemUser> userManager)
         {
             _db = context;
             _env = env;
@@ -29,6 +30,17 @@ namespace FinanceSystem.Controllers
         // GET: Transactions
         public ActionResult Index()
         {
+            var uId = _userManager.GetUserId(User);
+            var userInfo =  _db.UserInfors.Find(uId);
+
+            if (userInfo != null)
+            {
+                if (userInfo.FirstName == null || userInfo.LastName == null || userInfo.Image == null)
+                {
+                    // Chuyển hướng đến trang chỉnh sửa thông tin
+                    return RedirectToAction("Edit", "UserInfors", new { id = userInfo.Id });
+                }
+            }
             System.Security.Claims.ClaimsPrincipal currentUser = this.User;
             var userId = _userManager.GetUserId(currentUser);
             var viewModel = new TransactionViewModel
@@ -98,7 +110,10 @@ namespace FinanceSystem.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Add(transaction);
+                var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
+                wallet.Balance -= transaction.Amount;
+				_db.Add(transaction);
+                
                 await _db.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
