@@ -50,6 +50,34 @@ namespace FinanceSystem.Data.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("FinanceSystem.Models.Plan", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("PlanDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Plan");
+                });
+
             modelBuilder.Entity("FinanceSystem.Models.Transaction", b =>
                 {
                     b.Property<int>("TransactionId")
@@ -77,12 +105,17 @@ namespace FinanceSystem.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int?>("PlanId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("WalletId")
                         .HasColumnType("int");
 
                     b.HasKey("TransactionId");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("PlanId");
 
                     b.HasIndex("WalletId");
 
@@ -364,11 +397,24 @@ namespace FinanceSystem.Data.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("FinanceSystem.Models.Plan", b =>
+                {
+                    b.HasOne("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", "User")
+                        .WithMany("Plans")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("FinanceSystem.Models.Transaction", b =>
                 {
                     b.HasOne("FinanceSystem.Models.Category", "Category")
                         .WithMany("Transactions")
                         .HasForeignKey("CategoryId");
+
+                    b.HasOne("FinanceSystem.Models.Plan", null)
+                        .WithMany("Transactions")
+                        .HasForeignKey("PlanId");
 
                     b.HasOne("FinanceSystem.Models.Wallet", "Wallet")
                         .WithMany("Transactions")
@@ -393,7 +439,7 @@ namespace FinanceSystem.Data.Migrations
             modelBuilder.Entity("FinanceSystem.Models.Wallet", b =>
                 {
                     b.HasOne("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", "User")
-                        .WithMany()
+                        .WithMany("Wallets")
                         .HasForeignKey("UserId");
 
                     b.Navigation("User");
@@ -455,6 +501,11 @@ namespace FinanceSystem.Data.Migrations
                     b.Navigation("Transactions");
                 });
 
+            modelBuilder.Entity("FinanceSystem.Models.Plan", b =>
+                {
+                    b.Navigation("Transactions");
+                });
+
             modelBuilder.Entity("FinanceSystem.Models.Wallet", b =>
                 {
                     b.Navigation("Transactions");
@@ -462,8 +513,12 @@ namespace FinanceSystem.Data.Migrations
 
             modelBuilder.Entity("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", b =>
                 {
+                    b.Navigation("Plans");
+
                     b.Navigation("UserInfor")
                         .IsRequired();
+
+                    b.Navigation("Wallets");
                 });
 #pragma warning restore 612, 618
         }

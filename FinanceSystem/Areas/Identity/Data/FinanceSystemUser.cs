@@ -11,5 +11,6 @@ namespace FinanceSystem.Areas.Identity.Data;
 public class FinanceSystemUser : IdentityUser
 {    public UserInfor UserInfor { get; set; }
         public ICollection<Wallet> Wallets { get; set; }
+        public ICollection<Plan> Plans { get; set; }
 }
 
