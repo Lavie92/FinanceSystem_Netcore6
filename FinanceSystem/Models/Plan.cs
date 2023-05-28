@@ -12,8 +12,10 @@ namespace FinanceSystem.Models
 		[StringLength(450)]
 		public string? Name { get; set; }
 		public string? UserId { get; set; }
-		public DateTime? PlanDate  { get; set; }
-		public decimal Amount { get; set; }
+		public DateTime PlanDate  { get; set; }
+        public DateTime PlanDateEnd { get; set; }
+
+        public decimal Amount { get; set; }
 		public virtual ICollection<Transaction>? Transactions { get; set; }
 		public virtual FinanceSystemUser? User { get; set; }
 	}

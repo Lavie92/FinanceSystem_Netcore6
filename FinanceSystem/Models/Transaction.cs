@@ -10,6 +10,7 @@ namespace FinanceSystem.Models
         public int TransactionId { get; set; }
         public int? WalletId { get; set; }
         public int? CategoryId { get; set; }
+        public int? PlanId { get; set; }
         [Required]
         [Range(1000, int.MaxValue)]
         public decimal Amount { get; set; }
@@ -21,6 +22,7 @@ namespace FinanceSystem.Models
         public string? Note { get; set; }
         public virtual Category? Category { get; set; }
         public virtual Wallet? Wallet { get; set; }
+        public virtual Plan? Plan { get; set; }
 
 		public IFormFile? ImageFile;
 

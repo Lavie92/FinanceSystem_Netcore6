@@ -10,6 +10,7 @@ using FinanceSystem.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using FinanceSystem.Areas.Identity.Data;
+using System.Numerics;
 
 namespace FinanceSystem.Controllers
 {
@@ -80,6 +81,66 @@ namespace FinanceSystem.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
+        //    public async Task<IActionResult> Create([Bind("TransactionId,WalletId,CategoryId,Amount,CreateDate,Image,Income,Note, Plan")] Transaction transaction)
+        //    {                       
+        //        System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+        //        var userId = _userManager.GetUserId(currentUser);
+        //        transaction.ImageFile = Request.Form.Files["ImageFile"];
+        //        if (transaction.ImageFile != null && transaction.ImageFile.Length > 0)
+        //        {
+        //            var uploadsFolder = Path.Combine(_env.WebRootPath, "images");
+        //            if (!Directory.Exists(uploadsFolder))
+        //            {
+        //                Directory.CreateDirectory(uploadsFolder);
+        //            }
+        //            var fileName = transaction.ImageFile.FileName;
+        //            var filePath = Path.Combine(uploadsFolder, fileName);
+        //            using (var stream = new FileStream(filePath, FileMode.Create))
+        //            {
+        //                await transaction.ImageFile.CopyToAsync(stream);
+        //            }
+        //            var relativePath = Path.GetRelativePath(_env.WebRootPath, filePath);
+        //            var imageUrl = "/" + relativePath.Replace("\\", "/");
+        //            filePath = imageUrl;
+        //            transaction.Image = filePath;
+        //        }
+
+        //        bool? selectedIncome = transaction.Income;
+        //        if (!selectedIncome.Value)
+        //        {
+        //            transaction.Amount *= -1;
+        //        }
+        //        if (ModelState.IsValid)
+        //        {
+        //            var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
+        //            wallet.Balance -= transaction.Amount;
+        //_db.Add(transaction);
+
+        //            await _db.SaveChangesAsync();
+        //            return RedirectToAction(nameof(Index));
+        //        }
+
+        //        if (ModelState.IsValid)
+        //        {
+        //            // Thêm transaction vào database
+        //            _db.Add(transaction);
+        //            await _db.SaveChangesAsync();
+
+        //            // Lấy plan từ database
+        //            var plan = await _db.Plan.FirstOrDefaultAsync();
+
+        //            // Kiểm tra số tiền vượt quá giới hạn của Amount trong plan
+        //            if (Math.Abs(transaction.Amount) > plan.Amount)
+        //            {
+        //                TempData["ErrorMessage"] = "Số tiền trong Transaction vượt quá giá trị của Amount Plan";
+        //                return RedirectToAction(nameof(Index));
+        //            }
+
+        //            return RedirectToAction(nameof(Index));
+        //        }
+        //        return View(transaction);
+
+        //    }
         public async Task<IActionResult> Create([Bind("TransactionId,WalletId,CategoryId,Amount,CreateDate,Image,Income,Note")] Transaction transaction)
         {
             System.Security.Claims.ClaimsPrincipal currentUser = this.User;
@@ -103,24 +164,67 @@ namespace FinanceSystem.Controllers
                 filePath = imageUrl;
                 transaction.Image = filePath;
             }
+
             bool? selectedIncome = transaction.Income;
-            if (!selectedIncome.Value)
+            if (selectedIncome.HasValue && !selectedIncome.Value)
             {
                 transaction.Amount *= -1;
             }
+
             if (ModelState.IsValid)
             {
-                var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
-                wallet.Balance -= transaction.Amount;
-				_db.Add(transaction);
-                
-                await _db.SaveChangesAsync();
+                var plans = await _db.Plan.ToListAsync();
+
+                // Kiểm tra xem giao dịch có nằm trong khoảng thời gian của plan hay không
+                bool isWithinAnyPlan = false;
+
+                foreach (var plan in plans)
+                {
+                    if (!selectedIncome.HasValue || (selectedIncome.HasValue && !selectedIncome.Value && DateTime.Compare(transaction.CreateDate, plan.PlanDate) >= 0 && DateTime.Compare(transaction.CreateDate, plan.PlanDateEnd) <= 0))
+                    {
+                        // Tính tổng số tiền âm từ các giao dịch thuộc cùng khoảng thời gian với transaction hiện tại
+                        decimal negativeAmount = await _db.Transactions
+                            .Where(t => t.Amount < 0 && t.CreateDate >= plan.PlanDate && t.CreateDate <= plan.PlanDateEnd)
+                            .SumAsync(t => t.Amount);
+
+                        // Tính số tiền còn lại của Amount trong plan
+                        decimal remainingAmount = plan.Amount + negativeAmount;
+
+                        // Kiểm tra xem số tiền của giao dịch có lớn hơn số tiền còn lại trong plan hay không
+                        if (Math.Abs(transaction.Amount) > remainingAmount)
+                        {
+                            TempData["ErrorMessage"] = "Số tiền bạn tiêu trong kế hoạch đề ra trong khoảng thời gian này đã quá mức cho phép rồi";
+                       
+                        }
+                        {
+                            var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
+                            wallet.Balance -= transaction.Amount;
+
+                            _db.Add(transaction);
+                            await _db.SaveChangesAsync();
+
+                            isWithinAnyPlan = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (!isWithinAnyPlan)
+                {
+                    var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
+                    wallet.Balance -= transaction.Amount;
+
+                    _db.Add(transaction);
+                    await _db.SaveChangesAsync();
+                }
+
                 return RedirectToAction(nameof(Index));
             }
-            return View(transaction);
 
+            return View(transaction);
         }
-        public async Task<IActionResult> Edit(int? id)
+
+            public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
