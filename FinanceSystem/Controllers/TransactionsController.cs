@@ -193,8 +193,7 @@ namespace FinanceSystem.Controllers
                         // Kiểm tra xem số tiền của giao dịch có lớn hơn số tiền còn lại trong plan hay không
                         if (Math.Abs(transaction.Amount) > remainingAmount)
                         {
-                            TempData["ErrorMessage"] = "Số tiền bạn tiêu trong kế hoạch đề ra trong khoảng thời gian này đã quá mức cho phép rồi";
-                       
+                            TempData["ErrorMessage"] = "Số tiền bạn tiêu trong kế hoạch đề ra trong khoảng thời gian này đã quá mức cho phép rồi. Bạn đã tiêu vượt so với dự kiến " + (-remainingAmount).ToString("N0") + "đ";
                         }
                         {
                             var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);

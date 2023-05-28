@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+RvPeJ1Ergq5ssSE/WrF7HZVChZtvACw+amRCUbmJiQ=",
+  "Hash": "JzGHxO/dllQKSNY9cK0OPtPazKEWg6F03dEOA1AFSdE=",
   "Source": "FinanceSystem",
   "BasePath": "_content/FinanceSystem",
   "Mode": "Default",
@@ -1868,6 +1868,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\menu.js"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\planerrormess.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/planerrormess.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\planerrormess.js"
     },
     {
       "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\script.js",

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX Form Submission</title>
+</head>
+<body>
+    <form id="yourForm" onsubmit="event.preventDefault(); submitForm();" action="/your-action-url" method="POST">
+        <!-- Các trường và nút submit của form của bạn -->
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function handleAjaxError(xhr) {
+            if (xhr.responseJSON && xhr.responseJSON.message) {
+                displayErrorMessage(xhr.responseJSON.message);
+            } else {
+                displayErrorMessage('Có lỗi xảy ra trong quá trình xử lý.');
+            }
+        }
+
+        function submitForm() {
+            var form = document.getElementById('yourForm'); // Thay 'yourForm' bằng ID của form của bạn
+            var formData = new FormData(form);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', form.action, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        if (response.success) {
+                            // Xử lý thành công, chẳng hạn chuyển hướng hoặc cập nhật UI
+                        } else {
+                            displayErrorMessage(response.message);
+                        }
+                    } else {
+                        // Xử lý lỗi
+                        handleAjaxError(xhr);
+                    }
+                }
+            };
+            xhr.send(formData);
+        }
+    </script>
+</body>
+</html>
