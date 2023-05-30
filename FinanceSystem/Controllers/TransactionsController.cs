@@ -11,7 +11,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using FinanceSystem.Areas.Identity.Data;
 using System.Numerics;
-
+using System.Net.Mail;
+using System.Net;
 namespace FinanceSystem.Controllers
 {
     [Authorize]
@@ -79,8 +80,7 @@ namespace FinanceSystem.Controllers
             ViewData["WalletId"] = new SelectList(_db.Wallets.Where(x => x.UserId == userId), "Id", "Name");
             return View();
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+    
         //    public async Task<IActionResult> Create([Bind("TransactionId,WalletId,CategoryId,Amount,CreateDate,Image,Income,Note, Plan")] Transaction transaction)
         //    {                       
         //        System.Security.Claims.ClaimsPrincipal currentUser = this.User;
@@ -141,6 +141,34 @@ namespace FinanceSystem.Controllers
         //        return View(transaction);
 
         //    }
+        private async Task<OkResult> SendInsufficientFundsEmail(string recipientEmail, decimal remainingAmount, string startDate, string endDate, string Name)
+        {
+            // Cấu hình thông tin người gửi
+            string senderEmail = "hutechfinancesystem@gmail.com";
+            string senderPassword = "cjblsplncbgzuzrx";
+            string senderDisplayName = "Your App";
+
+            // Cấu hình máy chủ SMTP
+            string smtpHost = "smtp.gmail.com";
+            int smtpPort = 587;
+
+            // Tạo đối tượng MailMessage
+            MailMessage message = new MailMessage();
+            message.From = new MailAddress(senderEmail, senderDisplayName);
+            message.To.Add(new MailAddress(recipientEmail));
+            message.Subject = "Thông báo hết tiền";
+            message.Body = $"Số tiền bạn tiêu trong kế hoạch '{Name}' từ ngày {startDate} đến ngày {endDate} đã vượt qua mức cho phép. Số tiền vượt quá là {(-remainingAmount).ToString("N0")} đồng.";
+            // Khởi tạo đối tượng SmtpClient
+            SmtpClient smtpClient = new SmtpClient(smtpHost, smtpPort);
+            smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
+            smtpClient.EnableSsl = true;
+
+            // Gửi email
+            await smtpClient.SendMailAsync(message);
+            return Ok();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("TransactionId,WalletId,CategoryId,Amount,CreateDate,Image,Income,Note")] Transaction transaction)
         {
             System.Security.Claims.ClaimsPrincipal currentUser = this.User;
@@ -193,7 +221,15 @@ namespace FinanceSystem.Controllers
                         // Kiểm tra xem số tiền của giao dịch có lớn hơn số tiền còn lại trong plan hay không
                         if (Math.Abs(transaction.Amount) > remainingAmount)
                         {
-                            TempData["ErrorMessage"] = "Số tiền bạn tiêu trong kế hoạch đề ra trong khoảng thời gian này đã quá mức cho phép rồi. Bạn đã tiêu vượt so với dự kiến " + (-remainingAmount).ToString("N0") + "đ";
+                            var currentLoggedInUser = await _userManager.GetUserAsync(User);
+                            var userEmail = currentLoggedInUser.Email;
+
+                            string startDate = plan.PlanDate.ToString("dd/MM/yyyy");
+                            string endDate = plan.PlanDateEnd.ToString("dd/MM/yyyy");
+                            string planName = plan.Name;
+                            await SendInsufficientFundsEmail(userEmail, remainingAmount, startDate, endDate, planName);
+
+                            TempData["ErrorMessage"] = "Số tiền bạn tiêu trong kế hoạch '" + planName + "' từ ngày " + startDate + " đến ngày " + endDate + " đã quá mức cho phép rồi. Bạn đã tiêu vượt so với dự kiến " + (-remainingAmount).ToString("N0") + "đ";
                         }
                         {
                             var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
