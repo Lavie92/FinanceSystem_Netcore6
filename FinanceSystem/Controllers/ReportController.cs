@@ -13,9 +13,9 @@ namespace FinanceSystem.Controllers
     public class ReportController : Controller
     {
         private readonly FinanceSystemDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<FinanceSystemUser> _userManager;
 
-        public ReportController(FinanceSystemDbContext context, UserManager<IdentityUser> userManager)
+        public ReportController(FinanceSystemDbContext context, UserManager<FinanceSystemUser> userManager)
         {
             _context = context;
             _userManager = userManager;
@@ -30,8 +30,7 @@ namespace FinanceSystem.Controllers
         public async Task<IActionResult> GetData()
         {
             var user = await _userManager.GetUserAsync(User);
-            //string id = user.Id;
-            string id = "1";
+            string id = user.Id;
 
             var data = await _context.Transactions
              //.Where(t => t.CreateDate.HasValue && t.Amount.HasValue && t.Income.HasValue && t.Wallet.UserId == id)

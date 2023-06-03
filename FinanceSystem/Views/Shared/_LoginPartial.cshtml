@@ -1,6 +1,7 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+﻿@using FinanceSystem.Areas.Identity.Data;
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<FinanceSystemUser> SignInManager
+@inject UserManager<FinanceSystemUser> UserManager
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))

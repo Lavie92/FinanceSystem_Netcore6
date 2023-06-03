@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+NaD+cvsnOro2dOOKOS7ElJLWQP/eD0XJyNAyT2ngig=",
+  "Hash": "JzGHxO/dllQKSNY9cK0OPtPazKEWg6F03dEOA1AFSdE=",
   "Source": "FinanceSystem",
   "BasePath": "_content/FinanceSystem",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FinanceSystem\\wwwroot",
       "Source": "FinanceSystem",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\paint\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FinanceSystem.styles.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FinanceSystem.styles.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "FinanceSystem.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FinanceSystem.styles.css"
+      "OriginalItemSpec": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FinanceSystem.styles.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinanceSystem.bundle.scp.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinanceSystem.bundle.scp.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "FinanceSystem.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinanceSystem.bundle.scp.css"
+      "OriginalItemSpec": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinanceSystem.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\Addimage.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\Addimage.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/Addimage.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Addimage.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\edit.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\edit.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/edit.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\edit.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\form.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\form.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/form.css",
       "AssetKind": "All",
@@ -1122,10 +1122,61 @@
       "OriginalItemSpec": "wwwroot\\css\\form.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\menu.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\imageProfile.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/imageProfile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\imageProfile.css"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/login/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login\\style.css"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style1.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/login/style1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login\\style1.css"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\menu.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/menu.css",
       "AssetKind": "All",
@@ -1139,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\menu.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\RadioButton.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\RadioButton.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/RadioButton.css",
       "AssetKind": "All",
@@ -1156,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\RadioButton.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\site.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\site.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1173,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\style.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\style.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1190,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\style1.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\style1.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/style1.css",
       "AssetKind": "All",
@@ -1207,10 +1258,44 @@
       "OriginalItemSpec": "wwwroot\\css\\style1.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\styles.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/StyleLogin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleLogin.css"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin1.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/StyleLogin1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleLogin1.css"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\styles.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -1224,10 +1309,27 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\favicon.ico",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\userin4.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/userin4.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\userin4.css"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\favicon.ico",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1241,10 +1343,44 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\285097558_124306203611591_1215944015738595403_n.jpg",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\032f43ef-99e8-4c21-ac20-579d14b15d8a.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/032f43ef-99e8-4c21-ac20-579d14b15d8a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\032f43ef-99e8-4c21-ac20-579d14b15d8a.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\106952552_p0_master1200.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/106952552_p0_master1200.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\106952552_p0_master1200.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\285097558_124306203611591_1215944015738595403_n.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/285097558_124306203611591_1215944015738595403_n.jpg",
       "AssetKind": "All",
@@ -1258,10 +1394,78 @@
       "OriginalItemSpec": "wwwroot\\images\\285097558_124306203611591_1215944015738595403_n.jpg"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\an uong.jpg",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/318573594_428088539538485_2571904678739694387_n_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\61a48642-f2fe-4a8f-8c5a-eb1cf023ca7c.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/61a48642-f2fe-4a8f-8c5a-eb1cf023ca7c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\61a48642-f2fe-4a8f-8c5a-eb1cf023ca7c.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\897c73c8-7aea-4f83-9d05-802689393cd4.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/897c73c8-7aea-4f83-9d05-802689393cd4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\897c73c8-7aea-4f83-9d05-802689393cd4.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\925121b8-b3d7-4bef-86a6-2e94fba3eccb.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/925121b8-b3d7-4bef-86a6-2e94fba3eccb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\925121b8-b3d7-4bef-86a6-2e94fba3eccb.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\an uong.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/an uong.jpg",
       "AssetKind": "All",
@@ -1275,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\an uong.jpg"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\bin.png",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\bin.png",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/bin.png",
       "AssetKind": "All",
@@ -1292,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bin.png"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\cover.png",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\cover.png",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/cover.png",
       "AssetKind": "All",
@@ -1309,10 +1513,44 @@
       "OriginalItemSpec": "wwwroot\\images\\cover.png"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\di lai.jpg",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\defaultAvatar.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/defaultAvatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\defaultAvatar.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\delete (1).png",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/delete (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\delete (1).png"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\di lai.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/di lai.jpg",
       "AssetKind": "All",
@@ -1326,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\images\\di lai.jpg"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\dookki.jpg",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\dookki.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/dookki.jpg",
       "AssetKind": "All",
@@ -1343,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dookki.jpg"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\download (1).jpg",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\download (1).jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/download (1).jpg",
       "AssetKind": "All",
@@ -1360,10 +1598,27 @@
       "OriginalItemSpec": "wwwroot\\images\\download (1).jpg"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\du lich.jpg",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\download.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\download.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\du lich.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/du lich.jpg",
       "AssetKind": "All",
@@ -1377,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\du lich.jpg"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\Lanni Tiết 1 Tiết 2 Tiết 3 Tiết 4 Tiết 5 Tiết 6 Tiết 7 Tiết 8.png",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\Lanni Tiết 1 Tiết 2 Tiết 3 Tiết 4 Tiết 5 Tiết 6 Tiết 7 Tiết 8.png",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/Lanni Tiết 1 Tiết 2 Tiết 3 Tiết 4 Tiết 5 Tiết 6 Tiết 7 Tiết 8.png",
       "AssetKind": "All",
@@ -1394,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Lanni Tiết 1 Tiết 2 Tiết 3 Tiết 4 Tiết 5 Tiết 6 Tiết 7 Tiết 8.png"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\mua sam.jpg",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\mua sam.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "images/mua sam.jpg",
       "AssetKind": "All",
@@ -1411,10 +1666,61 @@
       "OriginalItemSpec": "wwwroot\\images\\mua sam.jpg"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Addimage.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/pen-tsai-wYlhl0o1YjI-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\photo_6158851535187063950_y.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/photo_6158851535187063950_y.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\photo_6158851535187063950_y.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\sunset-anime-girl-silhouette-horizon-clouds-scenery-4k-wallpaper-uhdpaper.com-622@0@f.jpg",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "images/sunset-anime-girl-silhouette-horizon-clouds-scenery-4k-wallpaper-uhdpaper.com-622@0@f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sunset-anime-girl-silhouette-horizon-clouds-scenery-4k-wallpaper-uhdpaper.com-622@0@f.jpg"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Addimage.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/Addimage.js",
       "AssetKind": "All",
@@ -1428,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Addimage.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Delete.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Delete.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/Delete.js",
       "AssetKind": "All",
@@ -1445,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Delete.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Edit.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Edit.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/Edit.js",
       "AssetKind": "All",
@@ -1462,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Edit.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\exporting.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\exporting.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/exporting.js",
       "AssetKind": "All",
@@ -1479,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\js\\exporting.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\highcharts.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\highcharts.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/highcharts.js",
       "AssetKind": "All",
@@ -1496,10 +1802,61 @@
       "OriginalItemSpec": "wwwroot\\js\\highcharts.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\menu.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\imageProfile.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/imageProfile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\imageProfile.js"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/login/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login\\script.js"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script1.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/login/script1.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login\\script1.js"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\menu.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/menu.js",
       "AssetKind": "All",
@@ -1513,10 +1870,27 @@
       "OriginalItemSpec": "wwwroot\\js\\menu.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\script.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\planerrormess.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/planerrormess.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\planerrormess.js"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\script.js",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -1530,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\script1.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\script1.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/script1.js",
       "AssetKind": "All",
@@ -1547,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script1.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\scripts.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\scripts.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",
@@ -1564,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\site.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\site.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1581,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\sortable.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\sortable.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "js/sortable.js",
       "AssetKind": "All",
@@ -1598,10 +1972,27 @@
       "OriginalItemSpec": "wwwroot\\js\\sortable.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\userin4.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "js/userin4.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\userin4.js"
+    },
+    {
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1615,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1632,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1649,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1666,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1683,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1700,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1717,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1734,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1751,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1768,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1785,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1819,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1836,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1853,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1870,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1887,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1904,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1921,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1938,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1955,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1972,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1989,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2006,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2023,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2040,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2057,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2074,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2091,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2108,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2125,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2142,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2159,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2176,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2193,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2210,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2227,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2244,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2261,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2278,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2295,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2312,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2329,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2346,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2363,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2380,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2397,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2414,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2431,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2448,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2465,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2482,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2499,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2516,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2533,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2550,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FinanceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "ContentRoot": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
       "BasePath": "_content/FinanceSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

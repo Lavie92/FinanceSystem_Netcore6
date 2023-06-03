@@ -23,6 +23,18 @@ namespace FinanceSystem.Data
                 .HasOne(u => u.UserInfor)
                 .WithOne(p => p.User)
                 .HasForeignKey<UserInfor>(p => p.Id);
+            modelBuilder.Entity<Plan>()
+       .Property(p => p.Amount)
+       .HasConversion<double>();
+
+            modelBuilder.Entity<Transaction>()
+                .Property(t => t.Amount)
+                .HasConversion<double>();
+
+            modelBuilder.Entity<Wallet>()
+                .Property(w => w.Balance)
+                .HasConversion<double>();
         }
+        public DbSet<FinanceSystem.Models.Plan>? Plan { get; set; }
     }
 }

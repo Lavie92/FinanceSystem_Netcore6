@@ -11,13 +11,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
-using FinanceSystem.Areas.Identity.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using FinanceSystem.Areas.Identity.Data;
 
 namespace FinanceSystem.Areas.Identity.Pages.Account
 {
@@ -217,8 +217,8 @@ namespace FinanceSystem.Areas.Identity.Pages.Account
             if (!_userManager.SupportsUserEmail)
             {
                 throw new NotSupportedException("The default UI requires a user store with email support.");
-            }
+            }   
             return (IUserEmailStore<FinanceSystemUser>)_userStore;
-        }
+        }   
     }
 }

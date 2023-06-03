@@ -13,12 +13,32 @@
       "PackagePath": "staticwebassets\\css\\RadioButton.css"
     },
     {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin.css",
+      "PackagePath": "staticwebassets\\css\\StyleLogin.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin1.css",
+      "PackagePath": "staticwebassets\\css\\StyleLogin1.css"
+    },
+    {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\edit.css",
       "PackagePath": "staticwebassets\\css\\edit.css"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\form.css",
       "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\imageProfile.css",
+      "PackagePath": "staticwebassets\\css\\imageProfile.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style.css",
+      "PackagePath": "staticwebassets\\css\\login\\style.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style1.css",
+      "PackagePath": "staticwebassets\\css\\login\\style1.css"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\menu.css",
@@ -41,12 +61,36 @@
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\userin4.css",
+      "PackagePath": "staticwebassets\\css\\userin4.css"
+    },
+    {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\032f43ef-99e8-4c21-ac20-579d14b15d8a.jpg",
+      "PackagePath": "staticwebassets\\images\\032f43ef-99e8-4c21-ac20-579d14b15d8a.jpg"
+    },
+    {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\285097558_124306203611591_1215944015738595403_n.jpg",
       "PackagePath": "staticwebassets\\images\\285097558_124306203611591_1215944015738595403_n.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg",
+      "PackagePath": "staticwebassets\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\61a48642-f2fe-4a8f-8c5a-eb1cf023ca7c.jpg",
+      "PackagePath": "staticwebassets\\images\\61a48642-f2fe-4a8f-8c5a-eb1cf023ca7c.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\897c73c8-7aea-4f83-9d05-802689393cd4.jpg",
+      "PackagePath": "staticwebassets\\images\\897c73c8-7aea-4f83-9d05-802689393cd4.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\925121b8-b3d7-4bef-86a6-2e94fba3eccb.jpg",
+      "PackagePath": "staticwebassets\\images\\925121b8-b3d7-4bef-86a6-2e94fba3eccb.jpg"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\Lanni Tiết 1 Tiết 2 Tiết 3 Tiết 4 Tiết 5 Tiết 6 Tiết 7 Tiết 8.png",
@@ -65,6 +109,14 @@
       "PackagePath": "staticwebassets\\images\\cover.png"
     },
     {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\defaultAvatar.jpg",
+      "PackagePath": "staticwebassets\\images\\defaultAvatar.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\delete (1).png",
+      "PackagePath": "staticwebassets\\images\\delete (1).png"
+    },
+    {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\di lai.jpg",
       "PackagePath": "staticwebassets\\images\\di lai.jpg"
     },
@@ -77,12 +129,24 @@
       "PackagePath": "staticwebassets\\images\\download (1).jpg"
     },
     {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\download.jpg",
+      "PackagePath": "staticwebassets\\images\\download.jpg"
+    },
+    {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\du lich.jpg",
       "PackagePath": "staticwebassets\\images\\du lich.jpg"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\mua sam.jpg",
       "PackagePath": "staticwebassets\\images\\mua sam.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\photo_6158851535187063950_y.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_6158851535187063950_y.jpg"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Addimage.js",
@@ -103,6 +167,18 @@
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\highcharts.js",
       "PackagePath": "staticwebassets\\js\\highcharts.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\imageProfile.js",
+      "PackagePath": "staticwebassets\\js\\imageProfile.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script.js",
+      "PackagePath": "staticwebassets\\js\\login\\script.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script1.js",
+      "PackagePath": "staticwebassets\\js\\login\\script1.js"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\menu.js",
@@ -127,6 +203,10 @@
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\sortable.js",
       "PackagePath": "staticwebassets\\js\\sortable.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\userin4.js",
+      "PackagePath": "staticwebassets\\js\\userin4.js"
     },
     {
       "Id": "D:\\Do An Co So\\Do An\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -7,36 +7,47 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FinanceSystem.Data;
 using FinanceSystem.Models;
+using Microsoft.AspNetCore.Identity;
+using FinanceSystem.Areas.Identity.Data;
 
 namespace FinanceSystem.Controllers
 {
     public class CategoriesController : Controller
     {
         private readonly FinanceSystemDbContext _context;
-
-        public CategoriesController(FinanceSystemDbContext context)
+        UserManager<FinanceSystemUser> _userManager;
+        public CategoriesController(FinanceSystemDbContext context, UserManager<FinanceSystemUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
+        }
+        public string GetIdUser()
+        {
+            System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+            var userId = _userManager.GetUserId(currentUser);
+            return userId;
         }
 
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-              return _context.Categories != null ? 
-                          View(await _context.Categories.ToListAsync()) :
+            var userId = GetIdUser();
+            return _context.Categories != null ? 
+                          View(await _context.Categories.Where(x => x.UserId == userId).ToListAsync()) :
                           Problem("Entity set 'FinanceSystemDbContext.Categories'  is null.");
         }
 
         // GET: Categories/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            var userId = GetIdUser();
             if (id == null || _context.Categories == null)
             {
                 return NotFound();
             }
 
             var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id && m.UserId == userId);
             if (category == null)
             {
                 return NotFound();
@@ -58,6 +69,8 @@ namespace FinanceSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Image")] Category category)
         {
+            var userId = GetIdUser();
+            category.UserId = userId;
             if (ModelState.IsValid)
             {
                 _context.Add(category);
@@ -90,6 +103,8 @@ namespace FinanceSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Image")] Category category)
         {
+            var userId = GetIdUser();
+            category.UserId = userId;
             if (id != category.Id)
             {
                 return NotFound();
@@ -125,9 +140,10 @@ namespace FinanceSystem.Controllers
             {
                 return NotFound();
             }
+            var userId = GetIdUser();
 
             var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id && m.UserId == userId);
             if (category == null)
             {
                 return NotFound();
