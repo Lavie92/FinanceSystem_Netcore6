@@ -81,6 +81,40 @@ namespace FinanceSystem.Migrations
                     b.ToTable("Plan");
                 });
 
+            modelBuilder.Entity("FinanceSystem.Models.TargetSaving", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<decimal>("CurrentBalance")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("SaveDateEnd")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("SaveDateStart")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("TargetAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TargetSaving");
+                });
+
             modelBuilder.Entity("FinanceSystem.Models.Transaction", b =>
                 {
                     b.Property<int>("TransactionId")
@@ -111,6 +145,9 @@ namespace FinanceSystem.Migrations
                     b.Property<int?>("PlanId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("TargetSavingId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("WalletId")
                         .HasColumnType("int");
 
@@ -119,6 +156,8 @@ namespace FinanceSystem.Migrations
                     b.HasIndex("CategoryId");
 
                     b.HasIndex("PlanId");
+
+                    b.HasIndex("TargetSavingId");
 
                     b.HasIndex("WalletId");
 
@@ -409,6 +448,15 @@ namespace FinanceSystem.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("FinanceSystem.Models.TargetSaving", b =>
+                {
+                    b.HasOne("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("FinanceSystem.Models.Transaction", b =>
                 {
                     b.HasOne("FinanceSystem.Models.Category", "Category")
@@ -419,6 +467,10 @@ namespace FinanceSystem.Migrations
                         .WithMany("Transactions")
                         .HasForeignKey("PlanId");
 
+                    b.HasOne("FinanceSystem.Models.TargetSaving", "TargetSaving")
+                        .WithMany("Transactions")
+                        .HasForeignKey("TargetSavingId");
+
                     b.HasOne("FinanceSystem.Models.Wallet", "Wallet")
                         .WithMany("Transactions")
                         .HasForeignKey("WalletId");
@@ -426,6 +478,8 @@ namespace FinanceSystem.Migrations
                     b.Navigation("Category");
 
                     b.Navigation("Plan");
+
+                    b.Navigation("TargetSaving");
 
                     b.Navigation("Wallet");
                 });
@@ -507,6 +561,11 @@ namespace FinanceSystem.Migrations
                 });
 
             modelBuilder.Entity("FinanceSystem.Models.Plan", b =>
+                {
+                    b.Navigation("Transactions");
+                });
+
+            modelBuilder.Entity("FinanceSystem.Models.TargetSaving", b =>
                 {
                     b.Navigation("Transactions");
                 });

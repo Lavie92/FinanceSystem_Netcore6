@@ -81,66 +81,7 @@ namespace FinanceSystem.Controllers
             return View();
         }
     
-        //    public async Task<IActionResult> Create([Bind("TransactionId,WalletId,CategoryId,Amount,CreateDate,Image,Income,Note, Plan")] Transaction transaction)
-        //    {                       
-        //        System.Security.Claims.ClaimsPrincipal currentUser = this.User;
-        //        var userId = _userManager.GetUserId(currentUser);
-        //        transaction.ImageFile = Request.Form.Files["ImageFile"];
-        //        if (transaction.ImageFile != null && transaction.ImageFile.Length > 0)
-        //        {
-        //            var uploadsFolder = Path.Combine(_env.WebRootPath, "images");
-        //            if (!Directory.Exists(uploadsFolder))
-        //            {
-        //                Directory.CreateDirectory(uploadsFolder);
-        //            }
-        //            var fileName = transaction.ImageFile.FileName;
-        //            var filePath = Path.Combine(uploadsFolder, fileName);
-        //            using (var stream = new FileStream(filePath, FileMode.Create))
-        //            {
-        //                await transaction.ImageFile.CopyToAsync(stream);
-        //            }
-        //            var relativePath = Path.GetRelativePath(_env.WebRootPath, filePath);
-        //            var imageUrl = "/" + relativePath.Replace("\\", "/");
-        //            filePath = imageUrl;
-        //            transaction.Image = filePath;
-        //        }
-
-        //        bool? selectedIncome = transaction.Income;
-        //        if (!selectedIncome.Value)
-        //        {
-        //            transaction.Amount *= -1;
-        //        }
-        //        if (ModelState.IsValid)
-        //        {
-        //            var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
-        //            wallet.Balance -= transaction.Amount;
-        //_db.Add(transaction);
-
-        //            await _db.SaveChangesAsync();
-        //            return RedirectToAction(nameof(Index));
-        //        }
-
-        //        if (ModelState.IsValid)
-        //        {
-        //            // Thêm transaction vào database
-        //            _db.Add(transaction);
-        //            await _db.SaveChangesAsync();
-
-        //            // Lấy plan từ database
-        //            var plan = await _db.Plan.FirstOrDefaultAsync();
-
-        //            // Kiểm tra số tiền vượt quá giới hạn của Amount trong plan
-        //            if (Math.Abs(transaction.Amount) > plan.Amount)
-        //            {
-        //                TempData["ErrorMessage"] = "Số tiền trong Transaction vượt quá giá trị của Amount Plan";
-        //                return RedirectToAction(nameof(Index));
-        //            }
-
-        //            return RedirectToAction(nameof(Index));
-        //        }
-        //        return View(transaction);
-
-        //    }
+     
         private async Task<OkResult> SendInsufficientFundsEmail(string recipientEmail, decimal remainingAmount, string startDate, string endDate, string Name)
         {
             // Cấu hình thông tin người gửi
@@ -167,31 +108,94 @@ namespace FinanceSystem.Controllers
             await smtpClient.SendMailAsync(message);
             return Ok();
         }
+        private async Task SendSuccessSavingsEmail(string recipientEmail, string savingName)
+        {
+            // Cấu hình thông tin người gửi
+            string senderEmail = "hutechfinancesystem@gmail.com";
+            string senderPassword = "cjblsplncbgzuzrx";
+            string senderDisplayName = "Your App";
+
+            // Cấu hình máy chủ SMTP
+            string smtpHost = "smtp.gmail.com";
+            int smtpPort = 587;
+
+            // Tạo đối tượng MailMessage
+            MailMessage message = new MailMessage();
+            message.From = new MailAddress(senderEmail, senderDisplayName);
+            message.To.Add(new MailAddress(recipientEmail));
+            message.Subject = "Thông báo tiết kiệm thành công";
+            message.Body = $"Chúc mừng! Bạn đã hoàn thành tiết kiệm '{savingName}' thành công.";
+
+            // Khởi tạo đối tượng SmtpClient
+            SmtpClient smtpClient = new SmtpClient(smtpHost, smtpPort);
+            smtpClient.Credentials = new NetworkCredential(senderEmail, senderPassword);
+            smtpClient.EnableSsl = true;
+
+            // Gửi email
+            await smtpClient.SendMailAsync(message);
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("TransactionId,WalletId,CategoryId,Amount,CreateDate,Image,Income,Note")] Transaction transaction)
         {
-            System.Security.Claims.ClaimsPrincipal currentUser = this.User;
-            var userId = _userManager.GetUserId(currentUser);
-            transaction.ImageFile = Request.Form.Files["ImageFile"];
-            if (transaction.ImageFile != null && transaction.ImageFile.Length > 0)
+            var targetSavings = await _db.TargetSaving.OrderBy(ts => ts.SaveDateStart).ToListAsync();
+            bool targetAchieved = false; // Biến để theo dõi trạng thái mục tiêu đã đạt được
+
+            foreach (var targetSaving in targetSavings)
             {
-                var uploadsFolder = Path.Combine(_env.WebRootPath, "images");
-                if (!Directory.Exists(uploadsFolder))
+                if (transaction.Income && DateTime.Compare(transaction.CreateDate, targetSaving.SaveDateStart) >= 0 && DateTime.Compare(transaction.CreateDate, targetSaving.SaveDateEnd) <= 0)
                 {
-                    Directory.CreateDirectory(uploadsFolder);
+                    decimal savingAmount = transaction.Amount * 0.05m; // Lấy 5% số tiền giao dịch
+
+                    // Giảm 5% số tiền giao dịch
+                    transaction.Amount -= savingAmount;
+
+                    if (!targetAchieved && targetSaving.CurrentBalance < targetSaving.TargetAmount)
+                    {
+                        targetSaving.CurrentBalance += savingAmount;
+
+                        if (targetSaving.CurrentBalance >= targetSaving.TargetAmount)
+                        {
+                            var currentLoggedInUser = await _userManager.GetUserAsync(User);
+                            string recipientEmail = currentLoggedInUser.Email;
+                            string savingName = targetSaving.Name;
+
+                            await SendSuccessSavingsEmail(recipientEmail, savingName);
+                            TempData["SuccessMessage"] = "Tiết kiệm thành công! Bạn đã đạt được mục tiêu tiết kiệm"+ savingName;
+                            targetAchieved = true; // Đánh dấu mục tiêu đã đạt được
+                        }
+                        if (targetSaving.CurrentBalance > targetSaving.TargetAmount)
+                        {
+                            decimal excessAmount = targetSaving.CurrentBalance - targetSaving.TargetAmount;
+                            targetSaving.CurrentBalance -= excessAmount;
+                            transaction.Amount += excessAmount;
+                        }
+                        _db.Update(targetSaving);
+                        break; // Ngừng vòng lặp sau khi hoàn thành mục tiêu
+                    }
                 }
-                var fileName = transaction.ImageFile.FileName;
-                var filePath = Path.Combine(uploadsFolder, fileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await transaction.ImageFile.CopyToAsync(stream);
-                }
-                var relativePath = Path.GetRelativePath(_env.WebRootPath, filePath);
-                var imageUrl = "/" + relativePath.Replace("\\", "/");
-                filePath = imageUrl;
-                transaction.Image = filePath;
             }
+
+            // Thực hiện các bước xử lý khi không phải giao dịch thu nhập (expense)
+            
+                System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+                var userId = _userManager.GetUserId(currentUser);
+                transaction.ImageFile = Request.Form.Files["ImageFile"];
+                if (transaction.ImageFile != null && transaction.ImageFile.Length > 0)
+                {
+                    var uploadsFolder = Path.Combine(_env.WebRootPath, "images");
+                    Directory.CreateDirectory(uploadsFolder);
+                    var fileName = transaction.ImageFile.FileName;
+                    var filePath = Path.Combine(uploadsFolder, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await transaction.ImageFile.CopyToAsync(stream);
+                    }
+                    var relativePath = Path.GetRelativePath(_env.WebRootPath, filePath);
+                    var imageUrl = "/" + relativePath.Replace("\\", "/");
+                    transaction.Image = imageUrl;
+                }
+            
 
             bool? selectedIncome = transaction.Income;
             if (selectedIncome.HasValue && !selectedIncome.Value)
@@ -230,7 +234,9 @@ namespace FinanceSystem.Controllers
                             await SendInsufficientFundsEmail(userEmail, remainingAmount, startDate, endDate, planName);
 
                             TempData["ErrorMessage"] = "Số tiền bạn tiêu trong kế hoạch '" + planName + "' từ ngày " + startDate + " đến ngày " + endDate + " đã quá mức cho phép rồi. Bạn đã tiêu vượt so với dự kiến " + (-remainingAmount).ToString("N0") + "đ";
+                            return RedirectToAction(nameof(Index));
                         }
+                        else
                         {
                             var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
                             wallet.Balance -= transaction.Amount;
@@ -259,7 +265,8 @@ namespace FinanceSystem.Controllers
             return View(transaction);
         }
 
-            public async Task<IActionResult> Edit(int? id)
+
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {

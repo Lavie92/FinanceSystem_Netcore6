@@ -7,11 +7,19 @@
 <link rel="stylesheet" href="~/css/style.css">
 <link rel="stylesheet" href="~/css/styles.css">
 <link href="~/Content/css/edit.css" rel="stylesheet" />
+<link href="~/css/notification.css" rel="stylesheet" />
 <div id="notificationModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
         Bạn đã tiêu vượt kế hoạch
         <button id="closeButton">OK</button>
+    </div>
+</div>
+<div id="notificationModal1" class="modal">
+    <div class="modal-content1">
+        <span class="close">&times;</span>
+        Bạn đã hoàn thành mục tiêu
+        <button id="closeButton1">OK</button>
     </div>
 </div>
 @*<div id="notificationModal" class="alert alert-info" role="alert">
@@ -136,7 +144,7 @@
 </div>
 <script>
     // Hiển thị thông báo nhỏ
-    function showNotification(message) {
+    function showErrorMessage(message) {
         // Thiết lập nội dung thông báo
         $('#notificationMessage').text(message);
 
@@ -149,67 +157,100 @@
         $('#notificationModal').css('display', 'none');
     });
 
-    // Gọi hàm showNotification khi cần hiển thị thông báo
+    // Gọi hàm showErrorMessage khi cần hiển thị thông báo lỗi
     $(document).ready(function () {
         var errorMessage = '@TempData["ErrorMessage"]';
         if (errorMessage !== '') {
-            showNotification(errorMessage);
+            showErrorMessage(errorMessage);
+        }
+    });
+</script>
+<script>
+    // Hiển thị thông báo nhỏ
+    function showSuccessMessage(message) {
+        // Thiết lập nội dung thông báo
+        $('#notificationMessage').text(message);
+
+        // Hiển thị modal popup
+        $('#notificationModal1').css('display', 'block');
+    }
+
+    // Đóng modal popup khi nhấn nút đóng hoặc OK
+    $('.close, #closeButton').on('click', function () {
+        $('#notificationModal1').css('display', 'none');
+    });
+
+    // Gọi hàm showSuccessMessage khi cần hiển thị thông báo thành công
+    $(document).ready(function () {
+        var successMessage = '@TempData["SuccessMessage"]';
+        if (successMessage !== '') {
+            showSuccessMessage(successMessage);
         }
     });
 </script>
 <style>
-    #notificationModal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+    
+#notificationModal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.3s ease;
 }
 
-.modal-content {
-  background-color: #ff0000;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 300px;
-  text-align: center;
-  color: #ffffff;
+.modal-content1 {
+    background-color: #00ff7b;
+    margin: 50% auto;
+    transform: translateY(-50%);
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    animation: slideIn 0.3s forwards;
 }
 
-.close {
-  color: #ffffff;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
+.close1 {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
 
-.close:hover,
-.close:focus {
-  color: #000000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#closeButton {
-  background-color: #ffffff;
-  color: #000000;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-    li {
-        color: white;
+    .close1:hover {
+        color: #000000;
     }
+
+#closeButton1 {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    #closeButton1:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+
 </style>
 <div id="editModal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">

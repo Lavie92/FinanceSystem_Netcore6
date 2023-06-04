@@ -23,6 +23,7 @@ namespace FinanceSystem.Models
         public virtual Category? Category { get; set; }
         public virtual Wallet? Wallet { get; set; }
         public virtual Plan? Plan { get; set; }
+        public virtual TargetSaving? TargetSaving { get; set; }
 
 		public IFormFile? ImageFile;
 

@@ -15,6 +15,8 @@ namespace FinanceSystem.Data
 		public DbSet<Transaction> Transactions { get; set; }
 		public DbSet<Wallet> Wallets { get; set; }
         public DbSet<UserInfor> UserInfors { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -36,5 +38,6 @@ namespace FinanceSystem.Data
                 .HasConversion<double>();
         }
         public DbSet<FinanceSystem.Models.Plan>? Plan { get; set; }
+        public DbSet<FinanceSystem.Models.TargetSaving>? TargetSaving { get; set; }
     }
 }

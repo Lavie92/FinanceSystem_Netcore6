@@ -10632,11 +10632,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
+      "projectUniqueName": "D:\\do-an-co-so\\SavingGoal\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
       "projectName": "FinanceSystem",
-      "projectPath": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
+      "projectPath": "D:\\do-an-co-so\\SavingGoal\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
       "packagesPath": "C:\\Users\\An\\.nuget\\packages\\",
-      "outputPath": "D:\\do-an-co-so\\FinanceSystem-plan\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\",
+      "outputPath": "D:\\do-an-co-so\\SavingGoal\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\An\\AppData\\Roaming\\NuGet\\NuGet.Config",
