@@ -63,8 +63,8 @@ namespace FinanceSystem.Controllers
         public async Task<IActionResult> GetDataCategory()
         {
             var user = await _userManager.GetUserAsync(User);
-            //string id = user.Id;
-            string id = "1";
+            string id = user.Id;
+      
 
             var data = await _context.Transactions.Where(x => x.WalletId == x.WalletId)
                     .GroupBy(t => t.Category.Name)
