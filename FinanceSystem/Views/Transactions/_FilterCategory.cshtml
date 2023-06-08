@@ -1,0 +1,289 @@
+﻿@model TransactionViewModel
+<link href="~/Content/css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="~/css/style.css">
+<link rel="stylesheet" href="~/css/styles.css">
+<link href="~/Content/css/edit.css" rel="stylesheet" />
+<link href="~/css/notification.css" rel="stylesheet" />
+<div id="notificationModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        Bạn đã tiêu vượt kế hoạch
+        <button id="closeButton">OK</button>
+    </div>
+</div>
+<div id="notificationModal1" class="modal">
+    <div class="modal-content1">
+        <span class="close">&times;</span>
+        Bạn đã hoàn thành mục tiêu
+        <button id="closeButton1">OK</button>
+    </div>
+</div>
+@*<div id="notificationModal" class="alert alert-info" role="alert">
+  This is a notification message.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>*@
+<div class="loadNe">
+    <div class="products-area-wrapper tableView" id="transactionList1">
+        <div class="products-header">
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div class="product-cell image">
+                Giao dịch
+                <button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+
+            <div class="product-cell wallet">
+                Wallet<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell category">
+                Thể loại<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell status-cell">
+                Status<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell sales">
+                Ngày<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+            <div class="product-cell stock">
+                Ghi chú<button class="sort-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><path fill="currentColor" d="M496.1 138.3L375.7 17.9c-7.9-7.9-20.6-7.9-28.5 0L226.9 138.3c-7.9 7.9-7.9 20.6 0 28.5 7.9 7.9 20.6 7.9 28.5 0l85.7-85.7v352.8c0 11.3 9.1 20.4 20.4 20.4 11.3 0 20.4-9.1 20.4-20.4V81.1l85.7 85.7c7.9 7.9 20.6 7.9 28.5 0 7.9-7.8 7.9-20.6 0-28.5zM287.1 347.2c-7.9-7.9-20.6-7.9-28.5 0l-85.7 85.7V80.1c0-11.3-9.1-20.4-20.4-20.4-11.3 0-20.4 9.1-20.4 20.4v352.8l-85.7-85.7c-7.9-7.9-20.6-7.9-28.5 0-7.9 7.9-7.9 20.6 0 28.5l120.4 120.4c7.9 7.9 20.6 7.9 28.5 0l120.4-120.4c7.8-7.9 7.8-20.7-.1-28.5z" /></svg>
+                </button>
+            </div>
+
+        </div>
+        @{ var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");}
+        @foreach (var item in Model.Transactions)
+        {
+            <div class="products-row">
+                <div></div>
+                <button class="cell-more-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1" /><circle cx="12" cy="5" r="1" /><circle cx="12" cy="19" r="1" /></svg>
+
+                </button>
+                <ul class="options-menu" style="display: none;">
+                    <li onclick="deleteItem(this)" class="btndelete" data-transactionid="@item.TransactionId">Delete</li>
+                    <li onclick="editItem(this)" class="btnedit" data-transactionid="@item.TransactionId">Edit</li>
+                </ul>
+                <div class="product-cell image">
+                    <img src="@item.Image" alt="@item.Image">
+
+                    <span>$@String.Format(format, "{0:c0}", @item.Amount);</span>
+                </div>
+                <div class="product-cell wallet">                   
+
+                    <span>@item.WalletId</span>
+                </div>
+                <div class="product-cell category">
+                    <span class="cell-label">Category:</span>@item.Category.Name
+                </div>
+                <div class="product-cell status-cell">
+                    <span class="cell-label">Status:</span>
+                    @{
+                        string incomeText = item.Income == true ? "Inflow" : "Outflow";
+                    }
+                    @{
+                        if (incomeText == "Outflow")
+                        {
+                            <span class="status disabled">@incomeText</span>
+                        }
+                        else
+                        {
+                            <span class="status active">@incomeText</span>
+                        }
+                    }
+
+                </div>
+                <div class="product-cell sales">
+                    <span class="cell-label">Sales:</span>@item.CreateDate
+                </div>
+                <div class="product-cell stock">
+                    <span class="cell-label">Stock:</span>@item.Note
+                </div>
+            </div>
+        }
+    </div>
+
+    @{
+        if (@TempData["TotalAmount"] == null)
+        {
+            <p>null</p>
+        }
+        else
+        {
+            var total = (decimal)TempData["TotalAmount"];
+            if (total >= 0)
+            {
+                <p style="color: #05DBF2 ">Yeahhhh bạn đã lãi @String.Format(format, "{0:c0}", @total) cành ㄟ( ▔, ▔ )ㄏ</p>
+            }
+            else
+            {
+                <p style="color: #05DBF2">Không ổn rồi @TempData["Name"] ơi, bạn đã báo nhà @String.Format(format, "{0:c0}", @total) (* ￣︿￣)</p>
+            }
+        }
+        
+    }
+
+</div>
+<script>
+    // Hiển thị thông báo nhỏ
+    function showErrorMessage(message) {
+        // Thiết lập nội dung thông báo
+        $('#notificationMessage').text(message);
+
+        // Hiển thị modal popup
+        $('#notificationModal').css('display', 'block');
+    }
+
+    // Đóng modal popup khi nhấn nút đóng hoặc OK
+    $('.close, #closeButton').on('click', function () {
+        $('#notificationModal').css('display', 'none');
+    });
+
+    // Gọi hàm showErrorMessage khi cần hiển thị thông báo lỗi
+    $(document).ready(function () {
+        var errorMessage = '@TempData["ErrorMessage"]';
+        if (errorMessage !== '') {
+            showErrorMessage(errorMessage);
+        }
+    });
+</script>
+<script>
+    // Hiển thị thông báo nhỏ
+    function showSuccessMessage(message) {
+        // Thiết lập nội dung thông báo
+        $('#notificationMessage').text(message);
+
+        // Hiển thị modal popup
+        $('#notificationModal1').css('display', 'block');
+    }
+
+    // Đóng modal popup khi nhấn nút đóng hoặc OK
+    $('.close, #closeButton').on('click', function () {
+        $('#notificationModal1').css('display', 'none');
+    });
+
+    // Gọi hàm showSuccessMessage khi cần hiển thị thông báo thành công
+    $(document).ready(function () {
+        var successMessage = '@TempData["SuccessMessage"]';
+        if (successMessage !== '') {
+            showSuccessMessage(successMessage);
+        }
+    });
+</script>
+<style>
+    
+#notificationModal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.3s ease;
+}
+
+.modal-content1 {
+    background-color: #00ff7b;
+    margin: 50% auto;
+    transform: translateY(-50%);
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    animation: slideIn 0.3s forwards;
+}
+
+.close1 {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .close1:hover {
+        color: #000000;
+    }
+
+#closeButton1 {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    #closeButton1:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+
+</style>
+<div id="editModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background: linear-gradient(to right, #000336, #4218B8); ">
+                <h4 class="modal-title" style="color: aliceblue;">Edit Transaction</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var moreButtons = document.querySelectorAll(".cell-more-button");
+
+    moreButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            var optionsMenu = this.nextElementSibling;
+            if (optionsMenu.style.display === "none") {
+                optionsMenu.style.display = "block";
+            } else {
+                optionsMenu.style.display = "none";
+            }
+        });
+    });
+</script>
+<!-- Chatra {literal} -->
+
+<!-- /Chatra {/literal} -->
+<script src="~/js/Delete.js"></script>
+<script src="~/js/Edit.js"></script>
+<script src="~/js/planerrormess.js"></script>

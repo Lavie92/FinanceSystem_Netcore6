@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "Report";
+
+}
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+        Basic line chart showing trends in a dataset. This chart includes the
+        <code>series-label</code> module, which adds a label to each line for
+        enhanced readability.
+    </p>
+</figure>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "/Report/GetData",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                var categories = [];
+                var incomeData = [];
+                var expenseData = [];
+
+                for (var i = 0; i < result.length; i++) {
+                    var item = result[i];
+
+                    if (item.name === "Income") {
+                        for (var j = 0; j < item.data.length; j++) {
+                            var dataItem = item.data[j];
+                            categories.push(dataItem[0]);
+                            incomeData.push(parseFloat(dataItem[1]));
+                        }
+                    }
+                    else if (item.name === "Expense") {
+                        for (var j = 0; j < item.data.length; j++) {
+                            var dataItem = item.data[j];
+                            expenseData.push(parseFloat(dataItem[1]));
+                        }
+                    }
+                }
+
+                Highcharts.chart('container', {
+                    title: {
+                        text: 'Bảng Thống Kê Chi Tiêu Người Dùng',
+                        align: 'left'
+                    },
+
+                    subtitle: {
+                        text: 'Source: <a href="https://irecusa.org/programs/solar-jobs-census/" target="_blank">IREC</a>',
+                        align: 'left'
+                    },
+
+                    yAxis: {
+                        title: {
+                            text: 'Number of Employees'
+                        }
+                    },
+
+                    xAxis: {
+                        categories: categories
+                    },
+
+                    legend: {
+                        layout: 'vertical',
+                        align: 'right',
+                        verticalAlign: 'middle'
+                    },
+
+                    plotOptions: {
+                        series: {
+                            label: {
+                                connectorAllowed: false
+                            }
+                        }
+                    },
+
+                    series: [{
+                        name: 'Income',
+                        data: incomeData
+                    }, {
+                        name: 'Expense',
+                        data: expenseData
+                    }],
+
+                    responsive: {
+                        rules: [{
+                            condition: {
+                                maxWidth: 500
+                            },
+                            chartOptions: {
+                                legend: {
+                                    layout: 'horizontal',
+                                    align: 'center',
+                                    verticalAlign: 'bottom'
+                                }
+                            }
+                        }]
+                    }
+                });
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr.responseText);
+            }
+        });
+    });
+</script>

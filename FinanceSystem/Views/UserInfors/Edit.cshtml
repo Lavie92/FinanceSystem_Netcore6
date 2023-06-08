@@ -1,0 +1,264 @@
+﻿@*@model FinanceSystem.Models.UserInfor
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>UserInfor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Gender" /> @Html.DisplayNameFor(model => model.Gender)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birthdate" class="control-label"></label>
+                <input asp-for="Birthdate" class="form-control" />
+                <span asp-validation-for="Birthdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Vozer" /> @Html.DisplayNameFor(model => model.Vozer)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+*@
+@model FinanceSystem.Models.UserInfor
+
+@{
+	Layout = null;
+	ViewData["Title"] = "Index";
+}
+
+@*<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birthdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vozer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birthdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vozer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+<link rel="stylesheet" href="~/css/userin4.css">
+
+<div class="sttngs">
+	<h2>SETTINGS</h2>
+	<div class="tabordion">
+        
+		
+			<section id="section1">
+				<input class="t" type="radio" name="sections" id="option1" checked>
+				<label for="option1" class="trr"> Account</label>
+				<article>
+                    <form asp-action="Edit" asp-controller="UserInfors" enctype="multipart/form-data">
+					<div class="frm">
+						Old Image
+						<img src="@TempData["Image"]" width="30%" />
+
+						<div id='profile-upload'>
+							<div class="hvr-profile-img">
+
+
+								<input type="file" name="ImageFile" asp-for="ImageFile" id='getval' class="upload" id="imag" value="@TempData["Image"]">
+
+								<div class="icon">
+									<div class="camera4"><span></span></div>
+								</div>
+
+							</div>
+
+						</div>
+
+
+
+						<div class="tr">
+
+
+							<div class="form-group">
+								<label class="label" for="input" name="FirstName" asp-for="FirstName">FIRST NAME</label>
+								<input class="input" type="text" id="input" asp-for="FirstName">
+							</div>
+							<div class="form-group">
+								<label class="label" for="input" name="Image" asp-for="Image">Image</label>
+                                <input class="input" type="text" id="input" asp-for="Image">
+							</div>
+
+							<div class="form-group">
+								<label class="label" for="input" asp-for="LastName">LAST NAME</label>
+								<input class="input" type="text" id="input" asp-for="LastName">
+							</div>
+
+
+
+
+							<label class="label" for="input">PHONE NUMBER</label>
+							<input class="input" type="text" id="input">
+
+						</div>
+
+						<br>
+						<button type="submit">Update profile</button>
+
+					</div>
+                    </form>
+				</article>
+			</section>
+        
+       
+
+        
+		<section id="section2">
+
+
+
+			<input class="t" type="radio" name="sections" id="option2">
+
+
+
+			<label for="option2" class="trr"> Email</label>
+			<article>
+                <form>
+				<div class="tr wwq">
+					<label class="label" for="input">Current email</label>
+					<input class="input e" type="text" id="input">
+
+					<label class="label" for="input">New email</label>
+					<input class="input e" type="email" id="input">
+
+					<label class="label" for="input">confirm password</label>
+					<input class="input e" type="password" id="input">
+
+				</div>
+				<button>Update Email</button>
+        </form>
+			</article>
+		</section>
+        
+		<section id="section3">
+			<input class="t" type="radio" name="sections" id="option3">
+			<label for="option3" class="trr">Password</label>
+			<article>
+
+				<div class="tr wwq">
+					<label class="label" for="input">current Password</label>
+					<input class="input e" type="password" id="input">
+
+					<label class="label" for="input">new password</label>
+					<input class="input e" type="password" id="input">
+
+					<label class="label" for="input">repeat password</label>
+					<input class="input e" type="password" id="input">
+
+
+				</div>
+				<button>Change Password</button>
+			</article>
+		</section>
+		<section id="section4">
+			<input class="t" type="radio" name="sections" id="option4">
+			<label for="option4" class="trr">Verify</label>
+			<article>
+
+				<p>The green verified badge <span class="ver">&#10026;</span> on ZIki lets people know that an account is authentic.</p>
+			</article>
+		</section>
+
+       
+	</div>
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="~/js/userin4.js"></script>

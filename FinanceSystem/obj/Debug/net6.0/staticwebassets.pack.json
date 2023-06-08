@@ -1,0 +1,509 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinanceSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinanceSystem.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\Addimage.css",
+      "PackagePath": "staticwebassets\\css\\Addimage.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\RadioButton.css",
+      "PackagePath": "staticwebassets\\css\\RadioButton.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin.css",
+      "PackagePath": "staticwebassets\\css\\StyleLogin.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\StyleLogin1.css",
+      "PackagePath": "staticwebassets\\css\\StyleLogin1.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\edit.css",
+      "PackagePath": "staticwebassets\\css\\edit.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\imageProfile.css",
+      "PackagePath": "staticwebassets\\css\\imageProfile.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style.css",
+      "PackagePath": "staticwebassets\\css\\login\\style.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\login\\style1.css",
+      "PackagePath": "staticwebassets\\css\\login\\style1.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\notification.css",
+      "PackagePath": "staticwebassets\\css\\notification.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\style1.css",
+      "PackagePath": "staticwebassets\\css\\style1.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\userin4.css",
+      "PackagePath": "staticwebassets\\css\\userin4.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\032f43ef-99e8-4c21-ac20-579d14b15d8a.jpg",
+      "PackagePath": "staticwebassets\\images\\032f43ef-99e8-4c21-ac20-579d14b15d8a.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\106952552_p0_master1200.jpg",
+      "PackagePath": "staticwebassets\\images\\106952552_p0_master1200.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\285097558_124306203611591_1215944015738595403_n.jpg",
+      "PackagePath": "staticwebassets\\images\\285097558_124306203611591_1215944015738595403_n.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg",
+      "PackagePath": "staticwebassets\\images\\318573594_428088539538485_2571904678739694387_n_1.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\5975df98-ad4d-474f-b519-b10ce6a55079.jpg",
+      "PackagePath": "staticwebassets\\images\\5975df98-ad4d-474f-b519-b10ce6a55079.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\61a48642-f2fe-4a8f-8c5a-eb1cf023ca7c.jpg",
+      "PackagePath": "staticwebassets\\images\\61a48642-f2fe-4a8f-8c5a-eb1cf023ca7c.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\897c73c8-7aea-4f83-9d05-802689393cd4.jpg",
+      "PackagePath": "staticwebassets\\images\\897c73c8-7aea-4f83-9d05-802689393cd4.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\925121b8-b3d7-4bef-86a6-2e94fba3eccb.jpg",
+      "PackagePath": "staticwebassets\\images\\925121b8-b3d7-4bef-86a6-2e94fba3eccb.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\BookKeqing.jpg",
+      "PackagePath": "staticwebassets\\images\\BookKeqing.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\BookLumine.jpg",
+      "PackagePath": "staticwebassets\\images\\BookLumine.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\BookPaimon.jpg",
+      "PackagePath": "staticwebassets\\images\\BookPaimon.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\BookPaimon2.jpg",
+      "PackagePath": "staticwebassets\\images\\BookPaimon2.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\Kount-by-J2TEAM-Security.png",
+      "PackagePath": "staticwebassets\\images\\Kount-by-J2TEAM-Security.png"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\Lanni Tiết 1 Tiết 2 Tiết 3 Tiết 4 Tiết 5 Tiết 6 Tiết 7 Tiết 8.png",
+      "PackagePath": "staticwebassets\\images\\Lanni Tiết 1 Tiết 2 Tiết 3 Tiết 4 Tiết 5 Tiết 6 Tiết 7 Tiết 8.png"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\Screenshot 2023-06-08 145249.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2023-06-08 145249.png"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\a16368a7-c5d4-4731-9095-4cff79eeadb5.jpg",
+      "PackagePath": "staticwebassets\\images\\a16368a7-c5d4-4731-9095-4cff79eeadb5.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\an uong.jpg",
+      "PackagePath": "staticwebassets\\images\\an uong.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\bin.png",
+      "PackagePath": "staticwebassets\\images\\bin.png"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\cover.png",
+      "PackagePath": "staticwebassets\\images\\cover.png"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\defaultAvatar.jpg",
+      "PackagePath": "staticwebassets\\images\\defaultAvatar.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\delete (1).png",
+      "PackagePath": "staticwebassets\\images\\delete (1).png"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\di lai.jpg",
+      "PackagePath": "staticwebassets\\images\\di lai.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\dookki.jpg",
+      "PackagePath": "staticwebassets\\images\\dookki.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\download (1).jpg",
+      "PackagePath": "staticwebassets\\images\\download (1).jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\download.jpg",
+      "PackagePath": "staticwebassets\\images\\download.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\du lich.jpg",
+      "PackagePath": "staticwebassets\\images\\du lich.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\e412a4eb-0efc-407d-9a35-768b0dfbbcf8.jpg",
+      "PackagePath": "staticwebassets\\images\\e412a4eb-0efc-407d-9a35-768b0dfbbcf8.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\mua sam.jpg",
+      "PackagePath": "staticwebassets\\images\\mua sam.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pen-tsai-wYlhl0o1YjI-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\photo_6158851535187063950_y.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_6158851535187063950_y.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\images\\sunset-anime-girl-silhouette-horizon-clouds-scenery-4k-wallpaper-uhdpaper.com-622@0@f.jpg",
+      "PackagePath": "staticwebassets\\images\\sunset-anime-girl-silhouette-horizon-clouds-scenery-4k-wallpaper-uhdpaper.com-622@0@f.jpg"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Addimage.js",
+      "PackagePath": "staticwebassets\\js\\Addimage.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Delete.js",
+      "PackagePath": "staticwebassets\\js\\Delete.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\Edit.js",
+      "PackagePath": "staticwebassets\\js\\Edit.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\exporting.js",
+      "PackagePath": "staticwebassets\\js\\exporting.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\highcharts.js",
+      "PackagePath": "staticwebassets\\js\\highcharts.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\imageProfile.js",
+      "PackagePath": "staticwebassets\\js\\imageProfile.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script.js",
+      "PackagePath": "staticwebassets\\js\\login\\script.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\login\\script1.js",
+      "PackagePath": "staticwebassets\\js\\login\\script1.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\menu.js",
+      "PackagePath": "staticwebassets\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\planerrormess.js",
+      "PackagePath": "staticwebassets\\js\\planerrormess.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\script1.js",
+      "PackagePath": "staticwebassets\\js\\script1.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\sortable.js",
+      "PackagePath": "staticwebassets\\js\\sortable.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\js\\userin4.js",
+      "PackagePath": "staticwebassets\\js\\userin4.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FinanceSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FinanceSystem.props",
+      "PackagePath": "build\\FinanceSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FinanceSystem.props",
+      "PackagePath": "buildMultiTargeting\\FinanceSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FinanceSystem.props",
+      "PackagePath": "buildTransitive\\FinanceSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
