@@ -4,11 +4,30 @@
     ViewData["Title"] = "Edit";
 
 }
-
-<h1>Edit</h1>
-
-<h4>Transaction</h4>
 <hr />
+<style>
+	.form-group {
+		position: relative;
+	}
+
+		.form-group img {
+			max-width: 100%;
+			height: auto;
+		}
+		.form-group .switch {
+			display: flex;
+			align-items: center;
+		  }
+
+		  .form-group .switch label {
+			margin-right: 10px;
+		  }
+
+		.form-group .switch label {
+			margin-right: 5px;
+		}
+</style>
+
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit"  enctype="multipart/form-data">

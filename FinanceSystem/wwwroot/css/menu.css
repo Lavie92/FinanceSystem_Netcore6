@@ -1,4 +1,4 @@
-.options-menu {
+﻿.options-menu {
     position: absolute;
     display: block;
     background-color: rgba(0, 0, 0, 0.7);
@@ -22,3 +22,4 @@
 .dropdown.open .dropdown-menu {
     display: block;
 }
+

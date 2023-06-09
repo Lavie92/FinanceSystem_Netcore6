@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="~/css/styles.css">
     <link href="~/css/edit.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <style >th, td ,h1,h4,p {
+    color: white;
+  }
+        </style>
 </head>
 @*<script>!function (s, u, b, i, z) { var o, t, r, y; s[i] || (s._sbzaccid = z, s[i] = function () { s[i].q.push(arguments) }, s[i].q = [], s[i]("setAccount", z), r = ["widget.subiz.net", "storage.googleapis" + (t = ".com"), "app.sbz.workers.dev", i + "a" + (o = function (k, t) { var n = t <= 6 ? 5 : o(k, t - 1) + o(k, t - 3); return k !== t ? n : n.toString(32) })(20, 20) + t, i + "b" + o(30, 30) + t, i + "c" + o(40, 40) + t], (y = function (k) { var t, n; s._subiz_init_2094850928430 || r[k] && (t = u.createElement(b), n = u.getElementsByTagName(b)[0], t.async = 1, t.src = "https://" + r[k] + "/sbz/app.js?accid=" + z, n.parentNode.insertBefore(t, n), setTimeout(y, 2e3, k + 1)) })(0)) }(window, document, "script", "subiz", "acrrixjlhibadjyenkaf")</script>*@
 <script>!function (s, u, b, i, z) { var o, t, r, y; s[i] || (s._sbzaccid = z, s[i] = function () { s[i].q.push(arguments) }, s[i].q = [], s[i]("setAccount", z), r = ["widget.subiz.net", "storage.googleapis" + (t = ".com"), "app.sbz.workers.dev", i + "a" + (o = function (k, t) { var n = t <= 6 ? 5 : o(k, t - 1) + o(k, t - 3); return k !== t ? n : n.toString(32) })(20, 20) + t, i + "b" + o(30, 30) + t, i + "c" + o(40, 40) + t], (y = function (k) { var t, n; s._subiz_init_2094850928430 || r[k] && (t = u.createElement(b), n = u.getElementsByTagName(b)[0], t.async = 1, t.src = "https://" + r[k] + "/sbz/app.js?accid=" + z, n.parentNode.insertBefore(t, n), setTimeout(y, 2e3, k + 1)) })(0)) }(window, document, "script", "subiz", "acrrixjlhibadjyenkaf")</script>
@@ -276,6 +280,7 @@
                     </a>
                 </li>
             </ul>
+          
             <div class="account-info">
 
                 <div class="account-info-picture">
@@ -307,54 +312,83 @@
 
                     }
                 }*@
+                <style>
+
+                    .dropdown button,
+                    .dropdown a {
+                        display: inline-block;
+                        padding: 8px 16px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: center;
+                        text-decoration: none;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+
+                    .dropdown button {
+                        background-color: #007bff;
+                        color: #fff;
+                    }
+
+                    .dropdown a {
+                        padding: 0px 27px 10px;
+                        background-color: transparent;
+                        color: #007bff;
+                        border: none;
+                        text-decoration: none;
+                    }
+
+                        .dropdown a:hover {
+                            background-color: #007bff;
+                            color: #fff;
+                        }
+                      
+                    .dropdown-menu {
+                        display: none;
+                        position: absolute;
+                        top: -100px;
+                        background-color: #fff;
+                        padding: 8px;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                    }
+
+                </style>
 
                 <div class="dropdown">
                     <button class="account-info-more" style="position: relative; left: 63px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1" /><circle cx="19" cy="12" r="1" /><circle cx="5" cy="12" r="1" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal">
+                            <circle cx="12" cy="12" r="1" />
+                            <circle cx="19" cy="12" r="1" />
+                            <circle cx="5" cy="12" r="1" />
+                        </svg>
                     </button>
-                    <ul class="dropdown-menu" style="position: relative; top: -143px; margin-bottom: -119px; background-color: rgba(255, 255, 255, 0.001); opacity: 0.9; height: 125px; ">
-                          System.Security.Claims.ClaimsPrincipal userId = this.User;
-                       }
-                            
-@*
-                            using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "box1" }))
-                            {
-                                @Html.AntiForgeryToken()
-                                <button type="submit" class="btn123" style="width: 136px; --i: 4; position: relative; top: 2px;">Log Out</button>
-                            }
-                            using (Html.BeginForm("AccountSetting", "UserInformations", FormMethod.Post, new { id = "logoutForm", @class = "box1" }))
-                            {
-                                @Html.AntiForgeryToken()
-
-
-                                <a href="@Html.ActionLink("AccountSetting", "AccountSetting", "UserInformations", new { id = userId }, htmlAttributes: null)"><button type="submit" class="btn123" style="--i:4;">Account Setting</button></a>
-                            }
-                            @Html.ActionLink("AccountSetting", "AccountSetting", "UserInformations", new { id = userId, @class = "btn123" }, htmlAttributes: null)
-                    *@
-                    </ul>
+                    @{
+                        var user = await UserManager.GetUserAsync(User);
+                        var isAuthenticated = SignInManager.IsSignedIn(User);
+                        var id = UserManager.GetUserId(User);
+                    }
+                  <ul class="dropdown-menu" style="display: none; top:-100px">
+                    <li>
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                            <button type="submit">Logout</button>
+                        </form>
+                    </li>
+                    <li>
+                        <a asp-action="Edit" asp-controller="UserInfors" asp-route-id="@id">Edit</a>
+                    </li>
+                   </ul>
                 </div>
-                
-                @{
-                    var user = await UserManager.GetUserAsync(User);
-                    var isAuthenticated = SignInManager.IsSignedIn(User);
-                    var id = UserManager.GetUserId(User);
-                }
 
-                @if (isAuthenticated)
-                {
-                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
-                        <button type="submit">Logout</button>
-                    </form>
-                    <a asp-action="Edit" asp-controller="UserInfors" asp-route-id="@id">Edit</a>
-                }        
                 <script>
                     var dropdownButton = document.querySelector('.account-info-more');
-                    var dropdown = document.querySelector('.dropdown');
+                    var dropdownMenu = document.querySelector('.dropdown-menu');
 
                     dropdownButton.addEventListener('click', function () {
-                        dropdown.classList.toggle('open');
+                        dropdownMenu.style.display = dropdownMenu.style.display === 'none' ? 'block' : 'none';
+                       
                     });
-
                 </script>
             </div>
         </div>

@@ -234,16 +234,14 @@ namespace FinanceSystem.Controllers
                             await SendInsufficientFundsEmail(userEmail, remainingAmount, startDate, endDate, planName);
 
                             TempData["ErrorMessage"] = "Số tiền bạn tiêu trong kế hoạch '" + planName + "' từ ngày " + startDate + " đến ngày " + endDate + " đã quá mức cho phép rồi. Bạn đã tiêu vượt so với dự kiến " + (-remainingAmount).ToString("N0") + "đ";
-                            return RedirectToAction(nameof(Index));
-                        }
-                        else
-                        {
+                            
+                   
                             var wallet = _db.Wallets.FirstOrDefault(x => x.Id == transaction.WalletId);
                             wallet.Balance -= transaction.Amount;
 
                             _db.Add(transaction);
                             await _db.SaveChangesAsync();
-
+                            return RedirectToAction(nameof(Index));
                             isWithinAnyPlan = true;
                             break;
                         }
