@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authentication.Google;
 using FinanceSystem.Areas.Identity.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using FinanceSystem.Models.Momo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,7 +28,10 @@ builder.Services.AddControllersWithViews();
 
 // Add email sender service
 // Add email sender service
+builder.Services.Configure<MomoOptionModel>(builder.Configuration.GetSection("MomoAPI"));
+builder.Services.AddScoped<IMomoService, MomoService>();
 builder.Services.AddTransient<IEmailSender, EmailSender>();
+
 builder.Services.AddAuthentication()
 	.AddGoogle(options =>
 	{

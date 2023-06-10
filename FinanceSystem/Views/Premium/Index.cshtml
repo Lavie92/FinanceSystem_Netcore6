@@ -1,0 +1,43 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+	Layout = null;
+	var postUrl = "tich-hop-thanh-toan-momo-voi-asp-net-core-7d5e4hP";
+}
+<link rel="stylesheet" href="~/css/Premium/PremiumStyle.css">
+
+@{
+    if (TempData["IsPremium"] != null)
+    {
+        <div>
+            <h1>@TempData["IsPremium"]</h1>
+        </div>
+    }
+    else
+    {
+        <div class="container">
+		<h1>Nâng cấp tài khoản Premium</h1>
+			<form class="form cf"  action="/Premium/CreatePaymentUrl" id="frmCreateOrder" method="POST">
+			<section class="plan cf">
+				<h2>Chọn gói:</h2>
+				<input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">Premium</label>				
+			</section>
+			<section class="payment-plan cf">
+				<h2>Thời hạn</h2>
+				<input type="radio" name="radio2" id="monthly" value="monthly" checked><label class="monthly-label four col" for="monthly">Perpetual </label>
+			</section>
+			<section class="payment-type cf">
+				<h2>Phương thức thanh toán</h2>
+				<input type="radio" name="radio3" id="paypal" value="paypal" checked><label class="paypal-label four col" for="paypal">Momo</label>
+			</section>	
+			<input class="submit" type="submit" value="Submit">		
+		</form>
+	</div>
+    }
+}
+
+
+<script>
+    $(document).ready(function () {
+        
+    });
+</script>

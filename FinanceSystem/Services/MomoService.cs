@@ -2,11 +2,13 @@ using System.Security.Cryptography;
 using System.Text;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using ProGCoder_MomoAPI.Models.Momo;
-using ProGCoder_MomoAPI.Models.Order;
+using FinanceSystem.Models.Momo;
+using FinanceSystem.Models.Order;
 using RestSharp;
+using FinanceSystem.Models.Momo;
+using FinanceSystem.Models;
 
-namespace ProGCoder_MomoAPI.Services;
+namespace FinanceSystem.Services;
 
 public class MomoService : IMomoService
 {
@@ -64,6 +66,7 @@ public class MomoService : IMomoService
             OrderId = orderId,
             OrderInfo = orderInfo
         };
+
     }
 
     private string ComputeHmacSha256(string message, string secretKey)

@@ -1,7 +1,7 @@
-using ProGCoder_MomoAPI.Models.Momo;
-using ProGCoder_MomoAPI.Models.Order;
+using FinanceSystem.Models.Momo;
+using FinanceSystem.Models.Order;
 
-namespace ProGCoder_MomoAPI.Services;
+namespace FinanceSystem.Services;
 
 public interface IMomoService
 {

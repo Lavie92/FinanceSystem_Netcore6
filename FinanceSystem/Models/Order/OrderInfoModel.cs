@@ -1,4 +1,4 @@
-namespace ProGCoder_MomoAPI.Models.Order;
+namespace FinanceSystem.Models.Order;
 
 public class OrderInfoModel
 {

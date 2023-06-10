@@ -15,7 +15,6 @@ namespace FinanceSystem.Data
 		public DbSet<Transaction> Transactions { get; set; }
 		public DbSet<Wallet> Wallets { get; set; }
         public DbSet<UserInfor> UserInfors { get; set; }
-        public DbSet<PremiumSubscription> PremiumSubscriptions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,10 +24,6 @@ namespace FinanceSystem.Data
                 .HasOne(u => u.UserInfor)
                 .WithOne(p => p.User)
                 .HasForeignKey<UserInfor>(p => p.Id);
-			modelBuilder.Entity<FinanceSystemUser>()
-				.HasOne(u => u.PremiumSubscription)
-				.WithOne(p => p.User)
-				.HasForeignKey<PremiumSubscription>(p => p.Id);
 			//modelBuilder.Entity<Plan>()
    //    .Property(p => p.Amount)
    //    .HasConversion<double>();

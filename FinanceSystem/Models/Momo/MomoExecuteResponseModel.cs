@@ -1,4 +1,4 @@
-namespace ProGCoder_MomoAPI.Models.Momo;
+namespace FinanceSystem.Models.Momo;
 
 public class MomoExecuteResponseModel
 {

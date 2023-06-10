@@ -1,174 +1,181 @@
 ﻿@page
 @{
-    Layout = null;
+	Layout = null;
 }
 @model FinanceSystem.Areas.Identity.Pages.Account.Login
 @{
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="~/css/login/style.css">
-        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
-        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js'></script>
-        <script src="~/js/login/script1.js"></script>
-        <link rel="stylesheet" href="~/css/login/style1.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link href="~/css/login/StyleLogin.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header style="display: flex;">
-            <div>
-            </div>
-            <nav class="navigation">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-                <button class="btnLogin-popup">Login</button>
-            </nav>
-        </header>
-        <div class="wrapper">
-            <span class="icon-close">
-                <ion-icon name="close-outline"></ion-icon>
-            </span>
-            <div class="form-box login">
-                <h2>Login</h2>
-                <form id="account" method="post">
-                    <div class="input-box">
-                        <span class="icon">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </span>
-                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
-                        <label>Email</label>
-                    </div>
-                    <div class="input-box">
-                        <span class="icon">
-                            <ion-icon name="lock-closed-outline"></ion-icon>
-                        </span>
-                        <input asp-for="Input.Password" class="form-control"  autocomplete="current-password" aria-required="true" />
-                    <label>Password</label>
-                    </div>
-                    <div class="remeber-forgot">
-                        <label>
-                            <input asp-for="Input.RememberMe" type="checkbox" name="RememberMe">Remember me
-                        </label>
-                        <a asp-page="./ForgotPassword">Forgot Password?</a>
-                        <p>
-                            <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
-                        </p>
-                    </div>
-                    <button type="submit" class="btn">Login</button>
-                    <div class="login-register">
-                        <p>Don't have an account? <a href="#" class="register-link"> Register</a></p>
-                    </div>
-                    <div class="col-md-6 col-md-offset-2">
-                        <section>
-                            <h3>Use another service to log in.</h3>
-                            <hr />
-                            @{
-                                if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                                {
-                                    <div>
-                                        <p>
-                                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
-                                                article
-                                                about setting up this ASP.NET application to support logging in via external services
-                                            </a>.
-                                        </p>
-                                    </div>
-                                }
-                                else
-                                {
-                                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                                        <div>
-                                            <p>
-                                                @foreach (var provider in Model.ExternalLogins!)
-                                                {
-                                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                                }
-                                            </p>
-                                        </div>
-                                    </form>
-                                }
-                            }
-                        </section>
-                    </div>
-                </form>
-            </div>
-            <div class="form-box register">
-                <h2>Registration</h2>
-                <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                   
-                    <div class="input-box">
-                        <span class="icon">
-                            <ion-icon name="mail"></ion-icon>
-                        </span>
-                        <input type="email" required, name="EmailRegister" asp-for="Input.EmailRegister">
-                        <label>Email</label>
-                    </div>
-                    <div class="input-box">
-                        <span class="icon">
-                            <ion-icon name="person"></ion-icon>
-                        </span>
-                        <input type="password" required, name="PasswordRegister" asp-for="Input.PasswordRegister">
-                        <label>Password</label>
-                    </div>
-                    <div class="input-box">
-                        <span class="icon">
-                            <ion-icon name="lock-closed"></ion-icon>
-                        </span>
-                        <input type="password" required, name="ConfirmPassword" asp-for="Input.ConfirmPassword">
-                        <label>Confirm Password</label>
-                    </div>
-                    <button type="submit" class="btn">Register</button>
-                    <div class="login-register">
-                        <p>Already have an account? <a href="#" class="login-link"> Login</a></p>
-                    </div>
-                </form>
-                <div class="col-md-6 col-md-offset-2">
-                    <section>
-                        <h3>Use another service to register.</h3>
-                        <hr />
-                        @{
-                            if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                            {
-                                <div>
-                                    <p>
-                                        There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
-                                            article
-                                            about setting up this ASP.NET application to support logging in via external services
-                                        </a>.
-                                    </p>
-                                </div>
-                            }
-                            else
-                            {
-                                <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                                    <div>
-                                        <p>
-                                            @foreach (var provider in Model.ExternalLogins!)
-                                            {
-                                                <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                            }
-                                        </p>
-                                    </div>
-                                </form>
-                            }
-                        }
-                    </section>
-                </div>
-            </div>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="~/css/login/style.css">
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js'></script>
+		<script src="~/js/login/script1.js"></script>
+		<link rel="stylesheet" href="~/css/login/style1.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link href="~/css/login/StyleLogin.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header style="display: flex;">
+			<div>
+			</div>
+			<nav class="navigation">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Services</a>
+				<a href="#">Contact</a>
+				<button class="btnLogin-popup">Login</button>
+			</nav>
+		</header>
+			@{
+				if (TempData["UpgradeSuccess"] != null)
+				{
+					<h1>@TempData["UpgradeSuccess"]</h1>
+				}
+			}
+		<div class="wrapper">
+			<span class="icon-close">
+				<ion-icon name="close-outline"></ion-icon>
+			</span>
 
-        </div>
+			<div class="form-box login">
+				<h2>Login</h2>
+				<form id="account" method="post">
+					<div class="input-box">
+						<span class="icon">
+							<ion-icon name="mail-outline"></ion-icon>
+						</span>
+						<input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+						<label>Email</label>
+					</div>
+					<div class="input-box">
+						<span class="icon">
+							<ion-icon name="lock-closed-outline"></ion-icon>
+						</span>
+						<input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
+						<label>Password</label>
+					</div>
+					<div class="remeber-forgot">
+						<label>
+							<input asp-for="Input.RememberMe" type="checkbox" name="RememberMe">Remember me
+						</label>
+						<a asp-page="./ForgotPassword">Forgot Password?</a>
+						<p>
+							<a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
+						</p>
+					</div>
+					<button type="submit" class="btn">Login</button>
+					<div class="login-register">
+						<p>Don't have an account? <a href="#" class="register-link"> Register</a></p>
+					</div>
+					<div class="col-md-6 col-md-offset-2">
+						<section>
+							<h3>Use another service to log in.</h3>
+							<hr />
+							@{
+								if ((Model.ExternalLogins?.Count ?? 0) == 0)
+								{
+									<div>
+										<p>
+											There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+												article
+												about setting up this ASP.NET application to support logging in via external services
+											</a>.
+										</p>
+									</div>
+								}
+								else
+								{
+									<form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+										<div>
+											<p>
+												@foreach (var provider in Model.ExternalLogins!)
+												{
+													<button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+												}
+											</p>
+										</div>
+									</form>
+								}
+							}
+						</section>
+					</div>
+				</form>
+			</div>
+			<div class="form-box register">
+				<h2>Registration</h2>
+				<form asp-route-returnUrl="@Model.ReturnUrl" method="post">
 
-        <script src="~/js/login/script.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="http://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </body>
-    </html>
+					<div class="input-box">
+						<span class="icon">
+							<ion-icon name="mail"></ion-icon>
+						</span>
+						<input type="email" required, name="EmailRegister" asp-for="Input.EmailRegister">
+						<label>Email</label>
+					</div>
+					<div class="input-box">
+						<span class="icon">
+							<ion-icon name="person"></ion-icon>
+						</span>
+						<input type="password" required, name="PasswordRegister" asp-for="Input.PasswordRegister">
+						<label>Password</label>
+					</div>
+					<div class="input-box">
+						<span class="icon">
+							<ion-icon name="lock-closed"></ion-icon>
+						</span>
+						<input type="password" required, name="ConfirmPassword" asp-for="Input.ConfirmPassword">
+						<label>Confirm Password</label>
+					</div>
+					<button type="submit" class="btn">Register</button>
+					<div class="login-register">
+						<p>Already have an account? <a href="#" class="login-link"> Login</a></p>
+					</div>
+				</form>
+				<div class="col-md-6 col-md-offset-2">
+					<section>
+						<h3>Use another service to register.</h3>
+						<hr />
+						@{
+							if ((Model.ExternalLogins?.Count ?? 0) == 0)
+							{
+								<div>
+									<p>
+										There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+											article
+											about setting up this ASP.NET application to support logging in via external services
+										</a>.
+									</p>
+								</div>
+							}
+							else
+							{
+								<form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+									<div>
+										<p>
+											@foreach (var provider in Model.ExternalLogins!)
+											{
+												<button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+											}
+										</p>
+									</div>
+								</form>
+							}
+						}
+					</section>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="~/js/login/script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="http://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+	</html>
 }

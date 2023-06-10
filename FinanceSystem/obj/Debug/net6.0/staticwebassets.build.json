@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "irUyw2Y+x+2vvcn099kCjBK9O9aA8JBVXiDYVp3igGw=",
+  "Hash": "c3txaugllsEIOqAxyod45rp79FbTx5wGTi55gphQKi0=",
   "Source": "FinanceSystem",
   "BasePath": "_content/FinanceSystem",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\notification.css"
+    },
+    {
+      "Identity": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\Premium\\PremiumStyle.css",
+      "SourceId": "FinanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\",
+      "BasePath": "_content/FinanceSystem",
+      "RelativePath": "css/Premium/PremiumStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Premium\\PremiumStyle.css"
     },
     {
       "Identity": "D:\\Do An Co So\\FinanceSystem_Netcore6\\FinanceSystem\\wwwroot\\css\\RadioButton.css",

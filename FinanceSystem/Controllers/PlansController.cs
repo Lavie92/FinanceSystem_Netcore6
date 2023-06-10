@@ -13,8 +13,8 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace FinanceSystem.Controllers
 {
-	[Authorize(Roles = "FreeUser")]
-	public class PlansController : Controller
+	[Authorize(Roles ="Premium, Admin")]
+    public class PlansController : Controller
     {
         private readonly FinanceSystemDbContext _context;
 		UserManager<FinanceSystemUser> _userManager;
@@ -31,7 +31,6 @@ namespace FinanceSystem.Controllers
             var userId = _userManager.GetUserId(currentUser);
 			return userId;
 		}
-		
 		public async Task<IActionResult> Index()
         {
             var financeSystemDbContext = _context.Plan.Include(p => p.User);

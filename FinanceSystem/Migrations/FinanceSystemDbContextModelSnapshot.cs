@@ -81,22 +81,6 @@ namespace FinanceSystem.Migrations
                     b.ToTable("Plan");
                 });
 
-            modelBuilder.Entity("FinanceSystem.Models.PremiumSubscription", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal?>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("PremiumSubscriptions");
-                });
-
             modelBuilder.Entity("FinanceSystem.Models.TargetSaving", b =>
                 {
                     b.Property<int>("Id")
@@ -464,17 +448,6 @@ namespace FinanceSystem.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("FinanceSystem.Models.PremiumSubscription", b =>
-                {
-                    b.HasOne("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", "User")
-                        .WithOne("PremiumSubscription")
-                        .HasForeignKey("FinanceSystem.Models.PremiumSubscription", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("FinanceSystem.Models.TargetSaving", b =>
                 {
                     b.HasOne("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", "User")
@@ -605,9 +578,6 @@ namespace FinanceSystem.Migrations
             modelBuilder.Entity("FinanceSystem.Areas.Identity.Data.FinanceSystemUser", b =>
                 {
                     b.Navigation("Plans");
-
-                    b.Navigation("PremiumSubscription")
-                        .IsRequired();
 
                     b.Navigation("UserInfor")
                         .IsRequired();
