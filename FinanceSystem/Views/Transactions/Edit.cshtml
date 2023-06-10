@@ -1,0 +1,123 @@
+﻿@model FinanceSystem.Models.Transaction
+
+@{
+    ViewData["Title"] = "Edit";
+
+}
+<hr />
+<style>
+	.form-group {
+		position: relative;
+	}
+
+		.form-group img {
+			max-width: 100%;
+			height: auto;
+		}
+		.form-group .switch {
+			display: flex;
+			align-items: center;
+		  }
+
+		  .form-group .switch label {
+			margin-right: 10px;
+		  }
+
+		.form-group .switch label {
+			margin-right: 5px;
+		}
+</style>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit"  enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TransactionId" />
+            @*<div class="form-group">
+                <label asp-for="WalletId" class="control-label"></label>
+                <select asp-for="WalletId" class="form-control" asp-items="ViewBag.WalletId"></select>
+                <span asp-validation-for="WalletId" class="text-danger"></span>
+            </div>*@
+			<div class="form-group">
+				<label asp-for="WalletId" class="control-label"></label>
+				<select asp-for="WalletId" class="form-control" asp-items="ViewBag.WalletId"></select>
+			</div>
+			<div class="form-group">
+				<label asp-for="CategoryId" class="control-label"></label>
+				<select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+			</div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateDate" class="control-label"></label>
+                <input asp-for="CreateDate" class="form-control" />
+                <span asp-validation-for="CreateDate" class="text-danger"></span>
+            </div>
+           <div class="form-group">
+				<label class="control-label">Old Image</label>
+
+			   <img src="@TempData["Image"]"/>
+				<label asp-for="Image" class="control-label"></label>
+				<div class="col-md-10">
+					<body class="body-1">
+						<div id="file-upload-form" class="uploader">
+							<input id="file-upload" type="file" name="ImageFile" accept="image/*" />
+
+							<label for="file-upload" id="file-drag">
+								<img id="file-image" src="#" alt="Preview" class="hidden">
+								<div id="start">
+									<i class="fa fa-download" aria-hidden="true"></i>
+									<div>Select a file or drag here</div>
+									<div id="notimage" class="hidden">Please select an image</div>
+									<span id="file-upload-btn" class="btn btn-primary">Select a file</span>
+								</div>
+								<div id="response" class="hidden">
+									<div id="messages"></div>
+									<progress class="progress" id="file-progress" value="0">
+										<span>0</span>%
+									</progress>
+								</div>
+							</label>
+						</div>
+					</body>
+				</div>
+				<span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+           	<br />
+			<div class="form-group form-check">
+				<label class="form-check-label">
+					<div class="col-md-10">
+						<input type="radio" value="true" name="Income" id="yes" checked />
+						<input type="radio" value="false" name="Income" id="no" />
+						<div class="switch">
+							<label for="yes">Yes</label>
+							<label for="no">No</label>
+							<span></span>
+						</div>
+					</div>
+				</label>
+				<span asp-validation-for="Income" class="text-danger"></span>
+
+			</div>
+            <div class="form-group">
+                <label asp-for="Note" class="control-label"></label>
+                <input asp-for="Note" class="form-control" />
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

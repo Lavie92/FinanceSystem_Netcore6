@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link href="https://assets.codepen.io/344846/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+@using FinanceSystem.Models
+<body>
+    <div class="bg-gray-100 dark:bg-gray-900 dark:text-white text-gray-600 h-screen flex overflow-hidden text-sm">
+        <div class="bg-white dark:bg-gray-900 dark:border-gray-800 w-20 flex-shrink-0 border-r border-gray-200 flex-col hidden sm:flex">
+            <div class="h-16 text-blue-500 flex items-center justify-center">
+            </div>
+            <div class="flex mx-auto flex-grow mt-4 flex-col text-gray-400 space-y-4">
+                <a href="@Url.Action("Index", "UserInformations")">
+                    <button class="h-10 w-12 dark:text-gray-500 rounded-md flex items-center justify-center">
+                        <svg viewBox="0 0 24 24" class="h-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </button>
+                </a>
+        
+            </div>
+        </div>
+        <div class="flex-grow overflow-hidden h-full flex flex-col">
+            <div class="h-16 lg:flex w-full border-b border-gray-200 dark:border-gray-800 hidden px-10">
+                <div class="flex h-full text-gray-600 dark:text-gray-400">
+
+                    <a href="@Url.Action("Index", "UserInformations")" class="cursor-pointer h-full border-b-2 border-blue-500 text-blue-500 dark:text-white dark:border-white inline-flex mr-8 items-center">Users</a>
+                  
+                </div>
+                <div class="ml-auto flex items-center space-x-7">
+               @*     @if (Request.IsAuthenticated)
+                    {
+                        string userId = User.Identity.GetUserId();
+                        using (Html.BeginForm("LogOff", "Account", new { area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "box1" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <button class="h-8 px-3 rounded-md shadow text-white bg-blue-500">Logout</button>
+                        }
+
+                    }*@
+
+                </div>
+            </div>
+            <div class="flex-grow flex overflow-x-hidden">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
