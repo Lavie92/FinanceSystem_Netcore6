@@ -5,15 +5,15 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 namespace FinanceSystem.Data
 {
-	public class FinanceSystemDbContext : IdentityDbContext
-	{
-		public FinanceSystemDbContext(DbContextOptions<FinanceSystemDbContext> options)
-			: base(options)
-		{
-		}
-		public DbSet<Category> Categories { get; set; }
-		public DbSet<Transaction> Transactions { get; set; }
-		public DbSet<Wallet> Wallets { get; set; }
+    public class FinanceSystemDbContext : IdentityDbContext
+    {
+        public FinanceSystemDbContext(DbContextOptions<FinanceSystemDbContext> options)
+            : base(options)
+        {
+        }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Wallet> Wallets { get; set; }
         public DbSet<UserInfor> UserInfors { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -56,7 +56,17 @@ namespace FinanceSystem.Data
                  .WithOne()
                  .HasForeignKey(w => w.UserId)
                  .OnDelete(DeleteBehavior.Cascade);
-      
+            modelBuilder.Entity<Transaction>()
+                .HasOne(t => t.Category)
+                .WithMany(c => c.Transactions)
+                .HasForeignKey(t => t.CategoryId)
+                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<Transaction>()
+                .HasOne(t => t.Wallet)
+                .WithMany(w => w.Transactions)
+                .HasForeignKey(t => t.WalletId)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
         public DbSet<FinanceSystem.Models.Plan>? Plan { get; set; }
         public DbSet<FinanceSystem.Models.TargetSaving>? TargetSaving { get; set; }

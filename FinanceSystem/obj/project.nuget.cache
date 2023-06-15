@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vHw1nSues16Bwp4SpfehBql0SXeA+tXf+hx9/RLU6znwLELOmSmXv3z+DbRJ5TjNDMX5Q4KUyx/MyNFmJ7klXw==",
+  "dgSpecHash": "reI6Zn+6Em0iH3SDGL3qi6044zkzCz9pbe0u6tkK801dLuC1V5THJmKLRNBjrKrL8Y+0/qMrRP3futjyOmy78Q==",
   "success": true,
-  "projectFilePath": "D:\\Do An Co So\\Final\\FinanceSystem_Netcore6- (1)\\FinanceSystem\\FinanceSystem.csproj",
+  "projectFilePath": "D:\\Do An Co So\\Final\\FinanceSystem_Netcore6\\FinanceSystem\\FinanceSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paint\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",
     "C:\\Users\\paint\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
